@@ -1,0 +1,34 @@
+version: "3.7"
+services:
+  postgres:
+    container_name: serve
+    environment:
+      HOSTNAME: serve
+      POSTGRES_DB: serve
+      POSTGRES_PASSWORD: bloom
+      POSTGRES_USER: bloom_user
+    image: postgres:16-alpine
+    ports:
+      - 5480:5432
+    networks:
+        - serve_net
+    restart: unless-stopped
+
+  pgadmin:
+      container_name: pgadmin_serve
+      image: dpage/pgadmin4
+      environment:
+        PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-test@test.com}
+        PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-test}
+      volumes:
+        - ./pgpassfile:/pgadmin4/pgpassfile
+        - ./pgadmin-servers.json:/pgadmin4/servers.json
+      ports:
+        - "${PGADMIN_PORT:-5080}:80"
+      networks:
+        - serve_net
+      restart: unless-stopped
+
+networks:
+  serve_net:
+    name: serve_net
