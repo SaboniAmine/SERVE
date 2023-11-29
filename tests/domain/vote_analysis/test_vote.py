@@ -2,7 +2,7 @@ import pytest
 from pydantic import ValidationError
 
 from serve.domain.vote_analysis.deputy import Deputy
-from serve.domain.vote_analysis.minutes import Vote
+from serve.domain.vote_analysis.vote import Vote
 
 
 @pytest.fixture

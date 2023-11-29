@@ -22,7 +22,7 @@ def pages_list() -> List[str]:
 def test_create_amendment_return_correct_amendment(pages_list):
     # given
     expected_id = "amendment_id"
-    expected_pdf_id = "pdf_id"
+    expected_minutes_id = "minutes_id"
     expected_pages = [Page(id=i, text=text) for i, text in enumerate(pages_list[3:5])]
     expected_page_numbers = 2
     expected_vote_numbers = 653
@@ -30,13 +30,13 @@ def test_create_amendment_return_correct_amendment(pages_list):
     expected_against_votes = 23
     expected_null_votes = 65
     # when
-    actual_amendment = Amendment(id="amendment_id", pdf_id="pdf_id", pages=expected_pages)
+    actual_amendment = Amendment(id="amendment_id", minutes_id="minutes_id", pages=expected_pages)
     actual_for_votes = len([vote for vote in actual_amendment.votes if vote.value == "+"])
     actual_against_votes = len([vote for vote in actual_amendment.votes if vote.value == "-"])
     actual_null_votes = len([vote for vote in actual_amendment.votes if vote.value == "0"])
     # then
     assert expected_id == actual_amendment.id
-    assert expected_pdf_id == actual_amendment.pdf_id
+    assert expected_minutes_id == actual_amendment.minutes_id
     assert expected_page_numbers == len(actual_amendment.pages)
     assert expected_vote_numbers == len(actual_amendment.votes)
     assert expected_for_votes == actual_for_votes

@@ -23,7 +23,7 @@ def test_creation_from_pdf_file_return_correct_minutes(pages_list):
     expected_page_number = 73
     expected_amendment_number = 35
     expected_first_amendment_id = "A9-0019/2019 -  Ondřej Kovařík - Vote unique"
-    expected_first_amendment_pdf_id = "test_minutes"
+    expected_first_amendment_minutes_id = "test_minutes"
     expected_first_amendment_page_numbers = 2
     expected_first_amendment_vote_numbers = 653
     expected_first_amendment_for_votes = 565
@@ -39,7 +39,7 @@ def test_creation_from_pdf_file_return_correct_minutes(pages_list):
     assert expected_page_number == len(actual_minutes.pages_list)
     assert expected_amendment_number == len(actual_minutes.amendments_list)
     assert expected_first_amendment_id == actual_first_amendment.id
-    assert expected_first_amendment_pdf_id == actual_first_amendment.pdf_id
+    assert expected_first_amendment_minutes_id == actual_first_amendment.minutes_id
     assert expected_first_amendment_page_numbers == len(actual_first_amendment.pages)
     assert expected_first_amendment_vote_numbers == len(actual_first_amendment.votes)
     assert expected_first_amendment_for_votes == actual_for_votes

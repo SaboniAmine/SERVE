@@ -2,9 +2,9 @@ import re
 from typing import Dict, List
 
 from pydantic import BaseModel, model_validator
-from typing_extensions import Literal
 
 from .deputy import Deputy
+from .vote import Vote
 
 
 def get_deputy_full_name_and_group(name: str, group_name: str):
@@ -61,15 +61,9 @@ class Page(BaseModel):
         return amendment_name
 
 
-class Vote(BaseModel):
-    amendment_id: str
-    value: Literal['+', '-', '0']
-    deputy: Deputy
-
-
 class Amendment(BaseModel):
     id: str
-    pdf_id: str
+    minutes_id: str
     pages: List[Page]
     votes: List[Vote] = []
 
@@ -139,6 +133,6 @@ class Minutes(BaseModel):
         amendment_infos = self._get_amendment_infos_from_body()
         for amendment_name, pages in amendment_infos.items():
             self.amendments_list.append(
-                Amendment(id=amendment_name, pdf_id=self.id, pages=pages)
+                Amendment(id=amendment_name, minutes_id=self.id, pages=pages)
             )
         return self
