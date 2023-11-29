@@ -4,7 +4,7 @@ from typing import List
 import pytest
 from pypdf import PdfReader
 
-from serve.domain.vote_analysis.minutes import Page
+from serve.domain.vote_analysis.page import Page
 
 
 @pytest.fixture
