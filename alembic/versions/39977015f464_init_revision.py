@@ -80,7 +80,6 @@ def upgrade() -> None:
         sa.Column("value", sa.String),
         sa.Column("resolution_id", sa.String),
         sa.Column("group_id_at_vote", sa.String),
-        sa.Column("current_group_id", sa.String),
         keep_existing=False,
     )
     op.create_foreign_key(
