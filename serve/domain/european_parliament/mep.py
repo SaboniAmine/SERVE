@@ -4,7 +4,8 @@ from typing import List
 
 from pydantic import BaseModel
 
-from serve.domain.european_parliament.european_parliament import EuropeanParliamentMEP
+from serve.domain.european_parliament.european_parliament import \
+    EuropeanParliamentMEP
 
 
 class GroupsEnum(Enum):
