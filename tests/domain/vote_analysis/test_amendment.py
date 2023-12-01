@@ -4,7 +4,7 @@ from typing import List
 import pytest
 from pypdf import PdfReader
 
-from serve.domain.vote_analysis.amendment import Amendment
+from serve.domain.vote_analysis.minutes import Amendment
 from serve.domain.vote_analysis.page import Page
 
 
@@ -19,6 +19,7 @@ def pages_list() -> List[str]:
             pages_list.append(page_text)
     return pages_list
 
+
 def test_create_amendment_return_correct_amendment(pages_list):
     # given
     expected_id = "amendment_id"
@@ -31,6 +32,7 @@ def test_create_amendment_return_correct_amendment(pages_list):
     assert expected_id == actual_amendment.id
     assert expected_minutes_id == actual_amendment.minutes_id
     assert expected_page_numbers == len(actual_amendment.pages)
+
 
 def test_get_str_amendment_votes_return_correct_str(pages_list):
     # given
@@ -47,5 +49,5 @@ def test_get_str_amendment_votes_return_correct_str(pages_list):
         pages=[Page(id=i, text=text) for i, text in enumerate(pages_list[3:5])]
     )
     # then
-    print(actual_amendment._get_str_amendment_votes())
-    assert expected_vote_str == actual_amendment._get_str_amendment_votes()
+    print(actual_amendment.get_str_amendment_votes())
+    assert expected_vote_str == actual_amendment.get_str_amendment_votes()

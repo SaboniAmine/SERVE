@@ -4,16 +4,23 @@ from typing import List
 from pydantic import BaseModel
 from typing_extensions import Literal
 
-from serve.domain.vote_analysis.mep import MEP
+from serve.domain.european_parliament.mep import MEP, GroupsEnum
+from serve.domain.vote_analysis.mep import MEPReadFromMinutes
 
 
 class Vote(BaseModel):
     amendment_id: str
-    mep: MEP
+    mep: MEPReadFromMinutes
     value: Literal['+', '-', '0']
 
-class Votes(BaseModel):
+
+class NormalizedVote(Vote):
+    mep: MEP
+    group_id_at_vote: GroupsEnum
+
+
+class Votes:
 
     @abstractmethod
-    def save_votes(votes: List[Vote]):
+    def save_votes(self, votes: List[Vote]):
         raise NotImplementedError

@@ -14,7 +14,7 @@ class MEP(Base):
 
 class Groups(Base):
     __tablename__ = "groups"
-    group_id = Column("group_id", UUID, primary_key=True, index=True)
+    group_id = Column("group_id", String, primary_key=True, index=True)
     group_full_name = Column("group_full_name", String)
 
 
@@ -31,13 +31,14 @@ class Resolutions(Base):
 class Votes(Base):
     __tablename__ = "votes"
     vote_id = Column("vote_id", UUID, primary_key=True, index=True)
-    value = Column("value", Integer)
+    mep_id = Column("mep_id", Integer)
+    value = Column("value", String)
     resolution_id = Column("resolution_id", String)
     group_id_at_vote = Column("group_id_at_vote", String)
 
 
 class Events(Base):
-    __tablename__ = "votes"
+    __tablename__ = "events"
     mep_events = Column("vote_id", UUID, primary_key=True, index=True)
     value = Column("value", Integer)
     resolution_id = Column("resolution_id", String)

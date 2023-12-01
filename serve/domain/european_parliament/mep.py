@@ -1,11 +1,8 @@
 from abc import abstractmethod
 from enum import Enum
-from typing import List
+from typing import List, Dict
 
 from pydantic import BaseModel
-
-from serve.domain.european_parliament.european_parliament import \
-    EuropeanParliamentMEP
 
 
 class GroupsEnum(Enum):
@@ -36,7 +33,15 @@ class MEP(BaseModel):
     is_active: bool
 
 
-class MEPs(BaseModel):
+class EuropeanParliamentMEP(BaseModel):
+    id: int
+    full_name: str
+    country: str
+    group_full_name: str
+    national_political_group: str
+
+
+class MEPs:
 
     @abstractmethod
     def get_by_id(self, mep_id: int) -> MEP:
@@ -44,6 +49,10 @@ class MEPs(BaseModel):
 
     @abstractmethod
     def get_all_meps(self) -> List[MEP]:
+        raise NotImplemented
+
+    @abstractmethod
+    def create_all_groups(self):
         raise NotImplemented
 
     @abstractmethod
@@ -61,3 +70,24 @@ class MEPs(BaseModel):
     @abstractmethod
     def create_batch_from_official_source(self, meps: List[EuropeanParliamentMEP]) -> int:
         raise NotImplemented
+
+
+class EuropeanParliamentMEPSource:
+    long_to_short_group: Dict[str, GroupsEnum] = {
+        "Group of the European People's Party (Christian Democrats)": GroupsEnum.PPE,
+        "Identity and Democracy Group": GroupsEnum.ID,
+        "Group of the Progressive Alliance of Socialists and Democrats in the European Parliament": GroupsEnum.SD,
+        "European Conservatives and Reformists Group": GroupsEnum.ECR,
+        "Group of the Greens/European Free Alliance": GroupsEnum.Verts,
+        "Renew Europe Group": GroupsEnum.Renew,
+        "The Left group in the European Parliament - GUE/NGL": GroupsEnum.GUE_NGL,
+        "Non-attached Members": GroupsEnum.NI,
+    }
+
+    @abstractmethod
+    def get_updated_list(self) -> List[EuropeanParliamentMEP]:
+        raise NotImplemented
+
+    @classmethod
+    def group_full_name_to_short_political_group(cls, group_full_name: str) -> GroupsEnum:
+        return cls.long_to_short_group[group_full_name]

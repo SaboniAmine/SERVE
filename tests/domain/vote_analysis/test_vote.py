@@ -1,13 +1,13 @@
 import pytest
 from pydantic import ValidationError
 
-from serve.domain.vote_analysis.mep import MEP
+from serve.domain.vote_analysis.mep import MEPReadFromMinutes
 from serve.domain.vote_analysis.vote import Vote
 
 
 @pytest.fixture
-def mep() -> MEP:
-    return MEP(name="foo", current_group_short_name="ECR")
+def mep() -> MEPReadFromMinutes:
+    return MEPReadFromMinutes(name="foo", current_group_short_name="ECR")
 
 def test_create_vote_return_correct_vote(mep):
     # given
