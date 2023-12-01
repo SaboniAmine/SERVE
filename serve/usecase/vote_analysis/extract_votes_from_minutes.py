@@ -1,6 +1,7 @@
 from typing import Any, List
 
-from PyPDF2 import PdfReader
+from fuzzywuzzy.process import extractOne
+from pypdf import PdfReader
 from fuzzywuzzy import process
 
 from serve.domain.european_parliament.mep import MEPs, MEP
@@ -49,23 +50,26 @@ class ExtractVotesFromMinutesUsecase:
         return normalized_votes
 
     def build_mep_from_name(self, mep) -> MEP:
-        # Try to extract full name from current group, if sure enough we
-        fuzzy_search_results = process.extract(mep.name, list(map(lambda x: x.full_name, filter(
-            lambda x: x.current_group_short_name == mep.current_group_short_name, self.meps_list))), limit=1)
+        min_score = 90
+        # Try to extract full name from current group, if sure enough we select its name
+        fuzzy_search_results = extractOne(mep.name, list(map(lambda x: x.full_name, filter(
+            lambda x: x.current_group_short_name == mep.current_group_short_name, self.meps_list))), processor=None,
+                                          score_cutoff=min_score)
         if fuzzy_search_results:
-            probable_mep_name, probability = fuzzy_search_results[0]
+            probable_mep_name, probability = fuzzy_search_results
             if probability > 85:
                 full_name = probable_mep_name
                 return list(filter(lambda x: x.full_name == full_name, self.meps_list))[0]
         # If MEP cannot be found with its group, lets fuzzy search it in the MEPs list
         try:
-            fuzzy_search_results = process.extract(
-                mep.name,
-                list(map(lambda x: x.full_name, self.meps_list)), limit=1
-            )[0]
+            fuzzy_search_results = extractOne(mep.name,
+                                              list(map(lambda x: x.full_name, self.meps_list)),
+                                              processor=None,
+                                              score_cutoff=min_score)
+            print(mep.name)
             full_name, probability = fuzzy_search_results
             return list(filter(lambda x: x.full_name == full_name, self.meps_list))[0]
-        except IndexError:
+        except TypeError:
             logger.error(f"No MEP known with the name: {mep.name} in the database")
             raise NotFoundException(error=NotFoundError(f"No MEP known with the name: {mep.name} in the database"))
 
