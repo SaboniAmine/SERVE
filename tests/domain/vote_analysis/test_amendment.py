@@ -47,5 +47,5 @@ def test_get_str_amendment_votes_return_correct_str(pages_list):
         pages=[Page(id=i, text=text) for i, text in enumerate(pages_list[3:5])]
     )
     # then
-    print(actual_amendment._get_str_amendment_votes())
-    assert expected_vote_str == actual_amendment._get_str_amendment_votes()
+    print(actual_amendment.get_str_amendment_votes())
+    assert expected_vote_str == actual_amendment.get_str_amendment_votes()

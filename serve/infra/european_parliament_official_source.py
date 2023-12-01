@@ -3,7 +3,7 @@ from typing import List
 import requests
 from xmltodict import parse
 
-from serve.domain.european_parliament.european_parliament import EuropeanParliamentMEPSource, EuropeanParliamentMEP
+from serve.domain.european_parliament.mep import EuropeanParliamentMEPSource, EuropeanParliamentMEP
 
 
 class XmlEuropeanParliamentMEPSource(EuropeanParliamentMEPSource):

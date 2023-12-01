@@ -53,9 +53,9 @@ def upgrade() -> None:
         ["group_id"],
     )
     op.create_table(
-        "resolutions",
+        "amendments",
         sa.Column(
-            "resolution_id",
+            "amendment_id",
             sa.String,
             primary_key=True,
             index=True,
@@ -78,7 +78,7 @@ def upgrade() -> None:
         ),
         sa.Column("mep_id", sa.Integer),
         sa.Column("value", sa.String),
-        sa.Column("resolution_id", sa.String),
+        sa.Column("amendment_id", sa.String),
         sa.Column("group_id_at_vote", sa.String),
         keep_existing=False,
     )
@@ -92,9 +92,9 @@ def upgrade() -> None:
     op.create_foreign_key(
         "fk_resolutions_votes",
         "votes",
-        "resolutions",
-        ["resolution_id"],
-        ["resolution_id"],
+        "amendments",
+        ["amendment_id"],
+        ["amendment_id"],
     )
     op.create_table(
         "mep_events",
@@ -127,7 +127,7 @@ def downgrade() -> None:
     tables = [
         "mep_events",
         "votes",
-        "resolutions",
+        "amendments",
         "meps",
         "groups",
     ]
