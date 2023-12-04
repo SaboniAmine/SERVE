@@ -3,11 +3,6 @@ import re
 from pydantic import BaseModel, model_validator
 
 
-def get_mep_full_name_and_group(name: str, group_name: str):
-    """ TO IMPLEMENT"""
-    return name, group_name
-
-
 class Page(BaseModel):
     id: int
     text: str

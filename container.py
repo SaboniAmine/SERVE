@@ -14,6 +14,7 @@ class Container(containers.DeclarativeContainer):
     config = providers.Configuration()
     db_url = settings.db_url
     mep_list_source = settings.mep_list_source
+    outgoing_mep_list_source = settings.outgoing_mep_list_source
     db = providers.Singleton(
         Database,
         db_url=db_url,
@@ -36,7 +37,8 @@ class Container(containers.DeclarativeContainer):
 
     meps_official_source = providers.Factory(
         XmlEuropeanParliamentMEPSource,
-        mep_list_source=mep_list_source
+        mep_list_source=mep_list_source,
+        outgoing_mep_list_source=outgoing_mep_list_source,
     )
 
     create_all_meps_usecase = providers.Factory(

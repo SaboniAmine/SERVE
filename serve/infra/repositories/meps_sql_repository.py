@@ -95,7 +95,7 @@ class MepsSqlRepository(MEPs):
             current_group_id=EuropeanParliamentMEPSource.group_full_name_to_short_political_group(
                 mep.group_full_name).value,
             country=mep.country,
-            is_active=True
+            is_active=mep.is_active,
         )
 
     @staticmethod

@@ -24,6 +24,7 @@ def test_creation_from_list_str_return_correct_minutes(pages_list):
     # given
     expected_page_number = 73
     expected_amendment_number = 35
+    expected_date = "14/11/2019"
     expected_first_amendment_id = "A9-0019/2019 -  Ondřej Kovařík - Vote unique"
     expected_first_amendment_minutes_id = "test_minutes"
     expected_first_amendment_page_numbers = 2
@@ -37,6 +38,7 @@ def test_creation_from_list_str_return_correct_minutes(pages_list):
     )
     actual_first_amendment = actual_minutes.amendments_list[0]
     # then
+    assert expected_date == actual_minutes.date
     assert expected_page_number == len(actual_minutes.pages_list)
     assert expected_amendment_number == len(actual_minutes.amendments_list)
     assert expected_first_amendment_id == actual_first_amendment.id

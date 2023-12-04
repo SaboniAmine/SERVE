@@ -27,6 +27,7 @@ class Minutes(BaseModel):
     id: str
     type: Optional[str]
     pages_list: List[Page]
+    date: str = None
     amendments_list: List[Amendment] = []
 
     def _get_amendment_infos_from_body(self) -> Dict:
@@ -51,6 +52,11 @@ class Minutes(BaseModel):
             )
         return self
 
+    @model_validator(mode="after")
+    def extract_date(self) -> "Minutes":
+        date_regex = r"\d{1,2}/\d{1,2}/\d{4}"
+        self.date = re.findall(date_regex, self.pages_list[0].text)[0]
+        return self
 
 class MinutesAggregate:
 
