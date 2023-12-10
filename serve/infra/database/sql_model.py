@@ -18,9 +18,9 @@ class Groups(Base):
     group_full_name = Column("group_full_name", String)
 
 
-class Resolutions(Base):
-    __tablename__ = "resolutions"
-    resolution_id = Column("resolution_id", UUID, primary_key=True, index=True)
+class Amendments(Base):
+    __tablename__ = "amendments"
+    amendment_id = Column("amendment_id", UUID, primary_key=True, index=True)
     type = Column("type", String)
     url = Column("url", String)
     label = Column("label", String)
@@ -30,16 +30,16 @@ class Resolutions(Base):
 
 class Votes(Base):
     __tablename__ = "votes"
-    vote_id = Column("vote_id", UUID, primary_key=True, index=True)
+    votes_id = Column("votes_id", UUID, primary_key=True, index=True)
     mep_id = Column("mep_id", Integer)
     value = Column("value", String)
-    resolution_id = Column("resolution_id", String)
+    amendment_id = Column("amendment_id", String)
     group_id_at_vote = Column("group_id_at_vote", String)
 
 
 class Events(Base):
     __tablename__ = "events"
-    mep_events = Column("vote_id", UUID, primary_key=True, index=True)
+    mep_events = Column("votes_id", UUID, primary_key=True, index=True)
     value = Column("value", Integer)
     resolution_id = Column("resolution_id", String)
     group_id_at_vote = Column("group_id_at_vote", String)

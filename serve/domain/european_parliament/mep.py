@@ -39,6 +39,7 @@ class EuropeanParliamentMEP(BaseModel):
     country: str
     group_full_name: str
     national_political_group: str
+    is_active: bool
 
 
 class MEPs:
@@ -81,11 +82,16 @@ class EuropeanParliamentMEPSource:
         "Group of the Greens/European Free Alliance": GroupsEnum.Verts,
         "Renew Europe Group": GroupsEnum.Renew,
         "The Left group in the European Parliament - GUE/NGL": GroupsEnum.GUE_NGL,
+        "Group of the European United Left - Nordic Green Left": GroupsEnum.GUE_NGL,
         "Non-attached Members": GroupsEnum.NI,
     }
 
     @abstractmethod
     def get_updated_list(self) -> List[EuropeanParliamentMEP]:
+        raise NotImplemented
+
+    @abstractmethod
+    def get_outgoing_list(self) -> List[EuropeanParliamentMEP]:
         raise NotImplemented
 
     @classmethod

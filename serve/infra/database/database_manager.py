@@ -2,8 +2,7 @@ from collections.abc import Callable
 from contextlib import AbstractContextManager, contextmanager
 
 from sqlalchemy import create_engine, exc, orm
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import declarative_base, Session
 
 from serve.infra.database.errors import DBError, DBErrorEnum, DBException
 from serve.logger import logger

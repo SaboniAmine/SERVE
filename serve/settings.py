@@ -24,6 +24,7 @@ class Settings(BaseSettings):
     )
 
     mep_list_source: str = "https://www.europarl.europa.eu/meps/en/full-list/xml"
+    outgoing_mep_list_source: str = "https://www.europarl.europa.eu/meps/en/incoming-outgoing/outgoing/xml"
 
 
 settings = Settings()
