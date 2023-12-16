@@ -33,10 +33,10 @@ class Page(BaseModel):
     @model_validator(mode="after")
     def extract_header(self) -> "Page":
         if self.header is None:
-            header_regex = r"^\d+\.\s.+\s\d{1,2}/\d{1,2}/\d{4}\s\d{2}:\d{2}:\d{2}.\d{3}\n"
+            header_regex = r"^\d+\.\s[\S\s]+?\n(?=\d+[+\-0]\n)"
             header_found = re.findall(header_regex, self.text)
             if len(header_found) == 1:
-                self.header = header_found[0]
+                self.header = header_found[0].replace('\n', '')
                 self.text = re.split(header_regex, self.text)[1]
             elif len(header_found) > 1:
                 raise Exception('Error extracting header, found multiple match.')
@@ -48,6 +48,6 @@ class Page(BaseModel):
     def extract_amendment_name_from_header(self):
         if self.header is None:
             return None
-        extract_regex = r"^\d+\.\s(.+)\s\d{1,2}/\d{1,2}/\d{4}\s\d{2}:\d{2}:\d{2}.\d{3}\n"
-        amendment_name = re.findall(extract_regex, self.header)[0]
+        name_regex = r"^\d+\.\s(.+?)(?:\d{1,2}\/\d{1,2}\/\d{4}\s\d{2}:\d{2}:\d{2}\.\d{3})?$"
+        amendment_name = re.findall(name_regex, self.header)[0].rstrip()
         return amendment_name

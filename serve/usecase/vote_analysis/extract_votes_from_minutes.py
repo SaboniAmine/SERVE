@@ -40,7 +40,6 @@ class ExtractVotesFromMinutesUsecase:
             amendment_ids: List[str]
     ):
         minutes = self.convert_minutes_from_pdf(minutes_id, minutes_type, minutes_pdf)
-        print(minutes)
         votes = MinutesAggregate.extract_votes_from_amendments(minutes, amendment_ids)
         normalized_votes = self.normalized_votes_read_from_minutes(votes)
         # raise Exception
