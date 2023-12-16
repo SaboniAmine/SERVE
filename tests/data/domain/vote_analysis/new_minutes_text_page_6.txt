@@ -1,0 +1,50 @@
+461+
+ECR:Hakkarainen, Ruissen, Ruohonen-Lerner
+ID:Annemans, Beigneux, Blaško, Bruna, Gancia, Vandendriessche
+NI:Beghin, Buschmann, Danzì, Ferrara, Furore, Giarrusso, Gyöngyösi, Kaili, Nikolaou-Alavanos, Papadakis Kostas, 
+Pignedoli, Ponsatí Obiols, Radačovský, Sonneborn, Tarabella, Uspaskich, Ždanoka
+PPE:Ademov, Adinolfi Isabella, Alexandrov Yordanov, Arias Echeverría, Arimont, Băsescu, Bellamy, Benjumea Benjumea, 
+Bentele, Berendsen, Berger, Bernhuber, Bilčík, Blaga, Bogdan, Bogovič, Braunsberger-Reinhold, Buda, Buşoi, Carvalho, 
+Casa, Caspary, del Castillo Vera, Clune, Coelho, Colin-Oesterlé, van Dalen, Danjean, De Meo, Didier, Doleschal, 
+Dorfmann, Düpont, Ehler, Estaràs Ferragut, Evren, Falcă, Ferber, Fernandes, Fitzgerald, Franssen, Gahler, García-
+Margallo y Marfil, Geuking, Gieseke, Glavak, Hava, Herbst, Hohlmeier, Jahr, Juknevičienė, Kalniete, Karas, Kelly, 
+Kokalari, Kovatchev, Kubilius, de Lange, Lega, Lexmann, Liese, Lins, López Gil, López-Istúriz White, Lutgen, Maldeikienė, 
+Manders, Mandl, Markey, Martusciello, Mato, Mažylis, Melbārde, Melo, Millán Mon, Monteiro de Aguiar, Montserrat, 
+Morano, Mortler, Motreanu, Mureşan, Mussolini, Niebler, Niedermayer, Nistor, Novak, Novakov, Peppucci, Pereira Lídia, 
+Pieper, Pietikäinen, Polčák, Polfjärd, Pollák, Pospíšil, Radev, Radtke, Rangel, Sagartz, Salini, Sander, Sarvamaa, 
+Schmiedtbauer, Schneider, Schreijer-Pierik, Schwab, Seekatz, Simon, Skyttedal, Sokol, Štefanec, Terras, Thaler, Tobé, 
+Tomac, Tomc, Vaidere, Vandenkendelaere, Verheyen, Vincze, Virkkunen, Voss, Vozemberg-Vrionidi, Vuolo, Walsh, 
+Walsmann, Warborn, Weber, Weiss, Winkler, Winzig, Wiseler-Lima, Zarzalejos, Zdechovský, Zoido Álvarez, Zovko, Zver
+Renew:Alieva-Veli, Al-Sahlani, Andrews, Ansip, Auštrevičius, Azmani, Bauzá Díaz, Bijoux, Bilbao Barandica, Botoş, Boyer, 
+Cañas, Canfin, Chabaud, Chastel, Christensen, Cioloş, Danti, Decerle, Donáth, Ďuriš Nicholsonová, Farreng, Ferrandino, 
+Flego, Gamon, Gheorghe, Gozi, Groothuis, Grošelj, Grudler, Guetta, Hayer, Hojsík, Ijabs, in 't Veld, Joveva, Karleskind, 
+Karlsbro, Katainen, Kelleher, Keller Fabienne, Kyrtsos, Kyuchyuk, Loiseau, Løkkegaard, Rasmussen, Melchior, 
+Mihaylova, Mituța, Nagtegaal, Orville, Paet, Pagazaurtundúa, Pekkarinen, Petersen, Pîslaru, Poptcheva, Poulsen, 
+Rafaela, Ries, Rinzema, Riquet, Rodríguez Ramos, Séjourné, Šimečka, Solís Pérez, Strugariu, Tolleret, Toom, Torvalds, 
+Tudorache, Vautmans, Vedrenne, Verhofstadt, Vázquez Lázara, Wiesner, Wiezik, Yenbou, Yon-Courtin, Zullo
+S&D:Agius Saliba, Aguilera, Ameriks, Angel, Ara-Kovács, Arena, Avram, Balt, Barley, Bartolo, Benifei, Beňová, Bergkvist, 
+Biedroń, Bischoff, Bresso, Brglez, Bullmann, Burkhardt, Carvalhais, Cerdas, Chahim, Cimoszewicz, Clergeau, Covassi, 
+Cutajar, De Basso, De Castro, Durá Ferrandis, Durand, Ecke, Engerer, Fernández, Fritzon, Fuglsang, García Del Blanco, 
+García Muñoz, García Pérez, Gardiazabal Rubial, Geier, Glucksmann, González, González Casares, Grapini, Gualmini, 
+Guillaume, Hajšel, Heide, Heinäluoma, Homs Ginel, Incir, Jongerius, Kammerevert, Kohut, Köster, Lalucq, Lange, 
+Larrouturou, Laureti, Leitão-Marques, Liberadzki, López, López Aguilar, Lucke, Luena, Maestre Martín De Almagro, 
+Marques Margarida, Marques Pedro, Matić, Mebarek, Mikser, Miller, Moreno Sánchez, Moretti, Bielowski, Negrescu, 
+Nemec, Nica, Noichl, Ohlsson, Papadakis Demetris, Papandreou, Penkova, Picierno, Picula, Pisapia, Plumb, Regner, 
+Repasi, Reuten, Roberti, Rodríguez-Piñero, Rondinelli, Ros Sempere, Roth Neveďalová, Rudner, Ruiz Devesa, Sánchez 
+Amor, Sant, Santos, Schaldemose, Schieder, Schuster, Sidl, Silva Pereira, Sippel, Smeriglio, Stanishev, Tang, Tax, 
+Tinagli, Toia, Ušakovs, Van Brempt, Variati, Vind, Vitanov, Wölken, Wolters, Zorrinho
+The Left:Arvanitis, Björk, Botenga, Chaibi, Daly, Demirel, Ernst, Flanagan, Gusmão, Konečná, Kouloglou, Kountoura, MacManus, 
+Matias, Maurel, Mesure, Michels, Modig, Omarjee, Papadimoulis, Pelletier, Pereira Sandra, Pimenta Lopes, Pineda, 
+Rego, Rodríguez Palop, Schirdewan, Scholz, Urbán Crespo, Villumsen, Wallace
+Verts/ALE:Alametsä, Andresen, Auken, Biteau, Bloss, Boeselager, Breyer, Bricmont, Bütikofer, Carême, Cavazzini, Cormand, 
+Corrao, Cuffe, Dalunde, D'Amato, Delbos-Corfield, Delli, Deparnay-Grunenberg, Eickhout, Freund, Gallée, Geese, 
+Gregorová, Gruffat, Guerreiro, Hahn Henrike, Häusling, Hautala, Herzberger-Fofana, Holmgren, Jadot, Keller Ska, Kolaja, 
+Kuhnke, Lagodinsky, Lamberts, Langensiepen, Marquardt, Matthieu, Metz, Miranda, Neumann, Nienass, Niinistö, 
+O'Sullivan, Paulus, Pedicini, Peksa, Peter-Hansen, Reintke, Riba i Giner, Ripa, Roose, Ropė, Satouri, Semsrott, Solé, 
+Spurek, Ştefănuță, Strik, Toussaint, Urtasun, Vana, Van Sparrentak, von Cramon-Taubadel, Wiener
+138-
+ECR:Aguilar, Berg, Berlato, Bielan, Bourgeois, Brudziński, Buxadé Villalba, Dzhambazki, Fidanza, Fiocchi, Fotyga, Fragkos, 
+Gemma, Ilčić, Jaki, Jurgiel, Jurzyca, Kanko, Karski, Kempa, Kloc, Kopcińska, Krasnodębski, Kruk, Kuźmiuk, Legutko, 
+Lundgren, Milazzo, Nesci, Nissinen, de la Pisa Carrión, Procaccini, Rafalska, Rookmaker, Roos, Rzońca, Sofo, 
+Stancanelli, Szydło, Tarczyński, Terheş, Tobiszowski, Van Overtveldt, Vondra, Vrecionová, Waszczykowski, Weimers, 
+Wiśniewska, Zahradil, Zalewska, Złotowski

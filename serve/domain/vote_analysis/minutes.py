@@ -18,7 +18,7 @@ class Amendment(BaseModel):
         # get amendment full text
         full_text = "\n".join([page.text for page in sorted(self.pages)])
         # keep the original votes only and discard potential correction votes
-        correction_regex = r'ПОПРАВКИ[\S\s]+RÖSTER'
+        correction_regex = r'\nПОПРАВКИ[\S\s]+RÖSTER'
         original_votes = re.split(correction_regex, full_text)[0]
         return original_votes
 
