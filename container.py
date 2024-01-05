@@ -8,6 +8,7 @@ from serve.infra.repositories.meps_sql_repository import MepsSqlRepository
 from serve.settings import settings
 from serve.usecase.european_parliament.create_all_meps import CreateAllMepsUsecase
 from serve.usecase.vote_analysis.extract_votes_from_minutes import ExtractVotesFromMinutesUsecase
+from serve.usecase.vote_analysis.initialize_votes_extract import InitializeVotesExtractUsecase
 
 
 class Container(containers.DeclarativeContainer):
@@ -45,6 +46,13 @@ class Container(containers.DeclarativeContainer):
         CreateAllMepsUsecase,
         meps_repository=meps_repository,
         meps_official_source=meps_official_source
+    )
+
+    initialize_votes_extract = providers.Factory(
+        InitializeVotesExtractUsecase,
+        votes_repository=votes_repository,
+        meps_repository=meps_repository,
+        amendments_repository=amendments_repository
     )
 
     extract_votes_usecase = providers.Factory(

@@ -49,7 +49,6 @@ class ExtractVotesFromMinutesUsecase:
     def normalized_votes_read_from_minutes(self, votes: List[Votes]) -> List[NormalizedVote]:
         normalized_votes = []
         for vote in votes:
-            # try:
             normalized_votes.append(
                 NormalizedVote(
                     amendment_id=vote.amendment_id,

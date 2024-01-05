@@ -14,8 +14,8 @@ class Page(BaseModel):
         found_footer = re.findall(regex_footer, self.text)
         if len(found_footer) != 1:
             raise Exception(f"Error extracting footer, should have exactly one match but got {len(found_footer)}")
-        splited_footer = found_footer[0].split()
-        footer_regex = re.escape(splited_footer[0]) + r"\s\d+.*?" + re.escape(splited_footer[-1])
+        splited_footer = re.split(r"\s\d+\s", found_footer[0])
+        footer_regex = re.escape(splited_footer[0]) + r"\s\d+\s" + re.escape(splited_footer[-1])
         return footer_regex
 
     @model_validator(mode="after")
