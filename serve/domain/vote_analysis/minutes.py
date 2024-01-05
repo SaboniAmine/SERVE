@@ -7,7 +7,7 @@ from pydantic import BaseModel, model_validator
 from serve.domain.vote_analysis.mep import MEPReadFromMinutes
 from serve.domain.vote_analysis.page import Page
 from serve.domain.vote_analysis.vote import Vote
-
+from serve.logger import logger
 
 class Amendment(BaseModel):
     id: str
@@ -55,8 +55,16 @@ class Minutes(BaseModel):
     @model_validator(mode="after")
     def extract_date(self) -> "Minutes":
         date_regex = r"\d{1,2}/\d{1,2}/\d{4}"
-        self.date = re.findall(date_regex, self.pages_list[0].text)[0]
+        date_first_page = re.findall(date_regex, self.pages_list[0].text)
+        date_second_page = re.findall(date_regex, self.pages_list[1].text)  # handle exceptional cases
+        if len(date_first_page) != 0:
+            self.date = date_first_page[0]
+        elif len(date_second_page) != 0:
+            self.date = date_second_page[0]
         return self
+
+    def __hash__(self) -> int:
+        return hash((type(self), self.id, self.type, self.date))
 
 class MinutesAggregate:
 
@@ -88,7 +96,10 @@ class MinutesAggregate:
                         )
                         votes.append(Vote(amendment_id=amendment.id, value=vote_category, mep=mep))
                         extracted_category_votes += 1
-                assert expected_category_total_votes == extracted_category_votes  # transformer exception métier
+                try:
+                    assert expected_category_total_votes == extracted_category_votes  # transformer exception métier
+                except AssertionError:
+                    logger.warning(f'Delta between expected number of votes ({expected_category_total_votes}) and extracted number of votes ({extracted_category_votes}).')
         return votes
 
 

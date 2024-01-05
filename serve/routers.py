@@ -6,6 +6,7 @@ from fastapi import UploadFile, Depends, APIRouter
 from container import Container
 from serve.usecase.european_parliament.create_all_meps import CreateAllMepsUsecase
 from serve.usecase.vote_analysis.extract_votes_from_minutes import ExtractVotesFromMinutesUsecase
+from serve.usecase.vote_analysis.initialize_votes_extract import InitializeVotesExtractUsecase
 
 router = APIRouter()
 
@@ -25,6 +26,13 @@ def extract_votes_from_pdf(minutes_pdf: UploadFile, amendments_list: List[str],
         amendment_ids=amendments_list
     )
 
+@router.post("/initialize")
+@inject
+def initialize_votes_extract(init_file: UploadFile,
+                             initialize_votes_extract: InitializeVotesExtractUsecase = Depends(
+                                 Provide[Container.initialize_votes_extract]
+                             )):
+    return initialize_votes_extract.read_file_and_extract_votes(init_file=init_file)
 
 @router.post("/create_batch")
 @inject
