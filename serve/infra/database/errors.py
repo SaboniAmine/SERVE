@@ -1,11 +1,7 @@
 from dataclasses import dataclass
 from enum import Enum
 
-
-@dataclass
-class ErrorBase:
-    code: Enum
-    message: str
+from serve.errors import ErrorBase
 
 
 class DBErrorEnum(Enum):
@@ -14,6 +10,7 @@ class DBErrorEnum(Enum):
     PROGRAMMING_ERROR = "PROGRAMMING_ERROR"
 
 
+@dataclass(kw_only=True)
 class DBError(ErrorBase):
     code: DBErrorEnum
 

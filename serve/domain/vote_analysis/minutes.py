@@ -2,7 +2,7 @@ import re
 from abc import abstractmethod
 from typing import Dict, List, Optional
 
-from pydantic import BaseModel, model_validator
+from pydantic import BaseModel, model_validator, AnyHttpUrl
 
 from serve.domain.vote_analysis.mep import MEPReadFromMinutes
 from serve.domain.vote_analysis.page import Page
@@ -10,7 +10,7 @@ from serve.domain.vote_analysis.vote import Vote
 from serve.logger import logger
 
 class Amendment(BaseModel):
-    id: str
+    id: Optional[str]
     minutes_id: str
     pages: List[Page]
 
@@ -24,9 +24,10 @@ class Amendment(BaseModel):
 
 
 class Minutes(BaseModel):
-    id: str
+    minutes_id: str
     type: Optional[str]
     pages_list: List[Page]
+    binding_value: int
     date: str = None
     amendments_list: List[Amendment] = []
 
@@ -48,7 +49,7 @@ class Minutes(BaseModel):
         amendment_infos = self._get_amendment_infos_from_body()
         for amendment_name, pages in amendment_infos.items():
             self.amendments_list.append(
-                Amendment(id=amendment_name, minutes_id=self.id, pages=pages)
+                Amendment(id=amendment_name, minutes_id=self.minutes_id, pages=pages)
             )
         return self
 

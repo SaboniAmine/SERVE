@@ -19,6 +19,7 @@ class AmendmentsSqlRepository(Amendments):
 
     def save_amendments(self, minutes: Minutes, amendment_ids: List[str]):
         with self.session_factory() as session:
+            print(amendment_ids)
             amendments_sql_objects = [self.map_amendment_to_sql(minutes, amendment_id) for amendment_id in amendment_ids]
             session.add_all(amendments_sql_objects)
             session.commit()
@@ -27,6 +28,7 @@ class AmendmentsSqlRepository(Amendments):
             )
 
     def map_amendment_to_sql(self, minutes: Minutes, amendment_id: str) -> sql_model.Votes:
+        print(f"Lone amendment id {amendment_id}")
         amendments_matched = [x for x in minutes.amendments_list if x.id == amendment_id]
         if len(amendments_matched) == 0:
             raise ValueError(f"No amendment found with id {amendment_id}.")
@@ -35,7 +37,8 @@ class AmendmentsSqlRepository(Amendments):
         return sql_model.Amendments(
             amendment_id=uuid.uuid4(),
             type=minutes.type,
-            url=minutes.id,
+            binding_value=minutes.binding_value,
+            url=minutes.minutes_id,
             label=amendment_id,
             date=datetime.strptime(minutes.date, "%d/%m/%Y"),
             page_number=amendment_first_page.id

@@ -1,9 +1,4 @@
-from dataclasses import dataclass
-
-
-@dataclass
-class ErrorBase:
-    message: str
+from serve.errors import ErrorBase
 
 
 class NotFoundError(ErrorBase):

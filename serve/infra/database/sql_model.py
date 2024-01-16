@@ -24,6 +24,7 @@ class Amendments(Base):
     type = Column("type", String)
     url = Column("url", String)
     label = Column("label", String)
+    binding_value = Column("binding_value", Integer)
     date = Column("date", TIMESTAMP)
     page_number = Column("page_number", Integer)
 

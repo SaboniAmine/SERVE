@@ -27,7 +27,7 @@ class MepsInMemoryRepository(MEPs):
         )]
 
     def get_by_id(self, mep_id: int) -> MEP:
-        return list(filter(lambda x: x.id == mep_id, self.meps))[0]
+        return list(filter(lambda x: x.minutes_id == mep_id, self.meps))[0]
 
     def get_all_meps(self) -> List[MEP]:
         return self.meps

@@ -1,3 +1,5 @@
+import time
+
 import regex as re
 from typing import Any, List
 
@@ -36,10 +38,12 @@ class ExtractVotesFromMinutesUsecase:
             self,
             minutes_id: str,
             minutes_type: str,
+            binding_value: int,
             minutes_pdf: Any,
             amendment_ids: List[str]
     ):
-        minutes = self.convert_minutes_from_pdf(minutes_id, minutes_type, minutes_pdf)
+        print(amendment_ids)
+        minutes = self.convert_minutes_from_pdf(minutes_id, minutes_type, binding_value, minutes_pdf)
         votes = MinutesAggregate.extract_votes_from_amendments(minutes, amendment_ids)
         normalized_votes = self.normalized_votes_read_from_minutes(votes)
         # raise Exception
@@ -59,7 +63,7 @@ class ExtractVotesFromMinutesUsecase:
             )
         return normalized_votes
 
-    def build_mep_from_name(self, mep: MEPReadFromMinutes, min_score: int) -> MEP:
+    def build_mep_from_name(self, mep: MEPReadFromMinutes, min_score: int = 60) -> MEP:
         # Try to extract full name from current group, if sure enough we select its name
         same_group_mask = [x.current_group_short_name == mep.current_group_short_name for x in self.meps_list]
         # search only in the list of name, but if the name is composed, search in full names
@@ -93,19 +97,24 @@ class ExtractVotesFromMinutesUsecase:
         raise NotFoundException(error=NotFoundError(f"No MEP known with the name: {mep.name} in the database"))
 
     @staticmethod
-    def convert_minutes_from_pdf(minutes_id: str, minutes_type: str, minutes_pdf: Any):
+    def convert_minutes_from_pdf(minutes_id: str, minutes_type: str, binding_value: int, minutes_pdf: Any):
         pdf = PdfReader(minutes_pdf)
         page_list = []
+        print("start conversion")
         for page_number, page in enumerate(pdf.pages):
             page_text = page.extract_text()
-            page_list.append(
-                Page(
+            page = Page(
                     id=page_number,
                     text=page_text
                 )
+            page_list.append(
+                page
             )
+            if "A9-0343/2023 - Christian Ehler - Après le considérant 44 - Am 31" in page_text:
+                print(page)
         return Minutes(
-            id=minutes_id,
+            minutes_id=minutes_id,
             type=minutes_type,
+            binding_value=binding_value,
             pages_list=page_list
         )
