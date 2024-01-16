@@ -38,7 +38,7 @@ class AmendmentsSqlRepository(Amendments):
             amendment_id=uuid.uuid4(),
             type=minutes.type,
             binding_value=minutes.binding_value,
-            url=minutes.minutes_id,
+            url=minutes.id,
             label=amendment_id,
             date=datetime.strptime(minutes.date, "%d/%m/%Y"),
             page_number=amendment_first_page.id

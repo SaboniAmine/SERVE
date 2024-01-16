@@ -100,7 +100,6 @@ class ExtractVotesFromMinutesUsecase:
     def convert_minutes_from_pdf(minutes_id: str, minutes_type: str, binding_value: int, minutes_pdf: Any):
         pdf = PdfReader(minutes_pdf)
         page_list = []
-        print("start conversion")
         for page_number, page in enumerate(pdf.pages):
             page_text = page.extract_text()
             page = Page(
