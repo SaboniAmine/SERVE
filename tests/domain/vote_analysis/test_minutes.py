@@ -42,6 +42,7 @@ def test_old_minutes_creation_from_list_str_return_correct_minutes(old_minutes_p
     actual_minutes = Minutes(
         id="test_minutes",
         type="test_type",
+        binding_value=0,
         pages_list=[
             Page(id=i, text=text) for i, text in enumerate(old_minutes_pages_list)
         ]
@@ -67,6 +68,7 @@ def test_new_minutes_creation_from_list_str_return_correct_minutes(new_minutes_p
     actual_minutes = Minutes(
         id="test_minutes",
         type="test_type",
+        binding_value=0,
         pages_list=[
             Page(id=i, text=text) for i, text in enumerate(new_minutes_pages_list)
         ]

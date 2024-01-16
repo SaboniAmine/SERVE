@@ -62,6 +62,7 @@ def upgrade() -> None:
             unique=True,
         ),
         sa.Column("type", sa.String),
+        sa.Column("binding_value", sa.Integer),
         sa.Column("url", sa.String),
         sa.Column("label", sa.String),
         sa.Column("date", sa.TIMESTAMP),
@@ -90,7 +91,7 @@ def upgrade() -> None:
         ["mep_id"],
     )
     op.create_foreign_key(
-        "fk_resolutions_votes",
+        "fk_amendments_votes",
         "votes",
         "amendments",
         ["amendment_id"],

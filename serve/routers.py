@@ -13,8 +13,10 @@ router = APIRouter()
 
 @router.post("/extract")
 @inject
-def extract_votes_from_pdf(minutes_pdf: UploadFile, amendments_list: List[str],
+def extract_votes_from_pdf(minutes_pdf: UploadFile,
+                           amendments_list: List[str],
                            minutes_type: str,
+                           binding_value: int,
                            url: str,
                            extract_votes_usecase: ExtractVotesFromMinutesUsecase = Depends(
                                Provide[Container.extract_votes_usecase]
@@ -22,8 +24,9 @@ def extract_votes_from_pdf(minutes_pdf: UploadFile, amendments_list: List[str],
     return extract_votes_usecase.read_minutes_and_extract_votes(
         minutes_id=url,
         minutes_type=minutes_type,
+        binding_value=binding_value,
         minutes_pdf=minutes_pdf.file,
-        amendment_ids=amendments_list
+        amendment_ids=amendments_list[0].split(",")
     )
 
 @router.post("/initialize")
