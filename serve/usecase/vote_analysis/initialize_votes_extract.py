@@ -20,6 +20,7 @@ class InitializeVotesExtractUsecase(ExtractVotesFromMinutesUsecase):
         contents = init_file.file.read()
         data = io.BytesIO(contents)
         df_init = pd.read_excel(data)
+        logger.info(f"{len(df_init)} amendments to ingest")
         minutes_amendment_ids = self.read_file_and_extract_minutes_and_amendment_name(df_init)
         logger.info('Done extracting minutes and amendment names from file')
         for minutes, amendment_ids in minutes_amendment_ids.items():

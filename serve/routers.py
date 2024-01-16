@@ -29,6 +29,7 @@ def extract_votes_from_pdf(minutes_pdf: UploadFile,
         amendment_ids=amendments_list[0].split(",")
     )
 
+
 @router.post("/initialize")
 @inject
 def initialize_votes_extract(init_file: UploadFile,
@@ -36,6 +37,7 @@ def initialize_votes_extract(init_file: UploadFile,
                                  Provide[Container.initialize_votes_extract]
                              )):
     return initialize_votes_extract.read_file_and_extract_votes(init_file=init_file)
+
 
 @router.post("/create_batch")
 @inject

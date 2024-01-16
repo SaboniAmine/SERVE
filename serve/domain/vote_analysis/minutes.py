@@ -29,6 +29,7 @@ class Minutes(BaseModel):
     type: Optional[str]
     pages_list: List[Page]
     date: str = None
+    binding_value: int
     amendments_list: List[Amendment] = []
 
     def _get_amendment_infos_from_body(self) -> Dict:
@@ -66,6 +67,7 @@ class Minutes(BaseModel):
 
     def __hash__(self) -> int:
         return hash((type(self), self.id, self.type, self.date))
+
 
 class MinutesAggregate:
 
