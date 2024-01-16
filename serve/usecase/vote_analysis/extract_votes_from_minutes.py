@@ -113,7 +113,7 @@ class ExtractVotesFromMinutesUsecase:
             if "A9-0343/2023 - Christian Ehler - Après le considérant 44 - Am 31" in page_text:
                 print(page)
         return Minutes(
-            minutes_id=minutes_id,
+            id=minutes_id,
             type=minutes_type,
             binding_value=binding_value,
             pages_list=page_list
