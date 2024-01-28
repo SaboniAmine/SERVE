@@ -1,14 +1,21 @@
 from dependency_injector import containers, providers
 
 from serve.infra.database.database_manager import Database
-from serve.infra.european_parliament_official_source import XmlEuropeanParliamentMEPSource
-from serve.infra.repositories.votes_sql_repository import VotesSqlRepository
-from serve.infra.repositories.amendments_sql_repository import AmendmentsSqlRepository
+from serve.infra.european_parliament_official_source import \
+    XmlEuropeanParliamentMEPSource
+from serve.infra.repositories.amendments_sql_repository import \
+    AmendmentsSqlRepository
 from serve.infra.repositories.meps_sql_repository import MepsSqlRepository
+from serve.infra.repositories.votes_sql_repository import VotesSqlRepository
 from serve.settings import settings
-from serve.usecase.european_parliament.create_all_meps import CreateAllMepsUsecase
-from serve.usecase.vote_analysis.extract_votes_from_minutes import ExtractVotesFromMinutesUsecase
-from serve.usecase.vote_analysis.initialize_votes_extract import InitializeVotesExtractUsecase
+from serve.usecase.european_parliament.create_all_meps import \
+    CreateAllMepsUsecase
+from serve.usecase.european_parliament.get_all_meps import GetAllMepsUsecase
+from serve.usecase.vote_analysis.extract_votes_from_minutes import \
+    ExtractVotesFromMinutesUsecase
+from serve.usecase.vote_analysis.get_mep_votes import GetMEPVotesUsecase
+from serve.usecase.vote_analysis.initialize_votes_extract import \
+    InitializeVotesExtractUsecase
 
 
 class Container(containers.DeclarativeContainer):
@@ -60,4 +67,14 @@ class Container(containers.DeclarativeContainer):
         votes_repository=votes_repository,
         meps_repository=meps_repository,
         amendments_repository=amendments_repository
+    )
+
+    get_all_meps_usecase = providers.Factory(
+        GetAllMepsUsecase,
+        meps_repository=meps_repository,
+    )
+
+    get_mep_votes_usecase = providers.Factory(
+        GetMEPVotesUsecase,
+        meps_repository=meps_repository,
     )

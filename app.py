@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi_pagination import add_pagination
 from pydantic import ValidationError
 from starlette.requests import Request
 from starlette.responses import JSONResponse
@@ -41,6 +42,7 @@ def create_app() -> FastAPI:
     server.add_exception_handler(DBException, db_exception_handler)
     server.add_exception_handler(ValidationError, validation_exception_handler)
     server.add_exception_handler(Exception, generic_exception_handler)
+    add_pagination(server)
 
     return server
 
