@@ -1,6 +1,7 @@
 from typing import List
 
 from serve.domain.european_parliament.mep import EuropeanParliamentMEP, MEPs, MEP, GroupsEnum
+from serve.domain.vote_analysis.vote import Vote
 
 
 class MepsInMemoryRepository(MEPs):
@@ -33,6 +34,9 @@ class MepsInMemoryRepository(MEPs):
         return self.meps
 
     def update_group(self, mep_id: int, new_group: GroupsEnum) -> MEP:
+        pass
+
+    def get_all_votes(self, mep_id: int) -> List[Vote]:
         pass
 
     def update_activity_status(self, mep_id: int, activity_status: bool) -> MEP:

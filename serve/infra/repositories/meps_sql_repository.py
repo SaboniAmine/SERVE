@@ -2,6 +2,7 @@ from contextlib import AbstractContextManager
 from typing import List, Optional
 
 from dependency_injector.providers import Callable
+from serve.domain.vote_analysis.vote import NormalizedVote
 
 from serve.infra.database.sql_model import Groups
 from serve.logger import logger
@@ -21,7 +22,7 @@ class MepsSqlRepository(MEPs):
         with self.session_factory() as session:
             mep = session.query(sql_model.MEP).filter(
                 sql_model.MEP.mep_id == mep_id
-            )
+            ).one()
         if mep:
             return self.map_sql_mep_to_mep(mep)
 
@@ -34,6 +35,16 @@ class MepsSqlRepository(MEPs):
 
     def update_group(self, mep_id: int, new_group: GroupsEnum) -> MEP:
         pass
+
+    def get_all_votes(self, mep_id: int) -> List[NormalizedVote]:
+        mep = self.get_by_id(mep_id)
+        with self.session_factory() as session:
+            votes = session.query(sql_model.Votes).filter(
+                sql_model.Votes.mep_id == mep_id
+            )
+        if not votes:
+            return []
+        return [self.map_sql_vote_to_vote(vote, mep) for vote in votes]
 
     def update_activity_status(self, mep_id: int, activity_status: bool) -> MEP:
         pass
@@ -106,4 +117,13 @@ class MepsSqlRepository(MEPs):
             current_group_short_name=GroupsEnum(sql_mep.current_group_id),
             country=sql_mep.country,
             is_active=sql_mep.is_active
+        )
+
+    @staticmethod
+    def map_sql_vote_to_vote(sql_vote: sql_model.Votes, mep: MEP) -> NormalizedVote:
+        return NormalizedVote(
+            amendment_id=sql_vote.amendment_id,
+            mep=mep,
+            value=sql_vote.value,
+            group_id_at_vote=sql_vote.group_id_at_vote
         )

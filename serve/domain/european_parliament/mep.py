@@ -1,8 +1,11 @@
 from abc import abstractmethod
 from enum import Enum
-from typing import List, Dict
+from typing import List, Dict, TYPE_CHECKING
 
 from pydantic import BaseModel
+
+if TYPE_CHECKING:
+    from serve.domain.vote_analysis.vote import NormalizedVote
 
 
 class GroupsEnum(Enum):
@@ -46,31 +49,35 @@ class MEPs:
 
     @abstractmethod
     def get_by_id(self, mep_id: int) -> MEP:
-        raise NotImplemented
+        raise NotImplementedError
 
     @abstractmethod
     def get_all_meps(self) -> List[MEP]:
-        raise NotImplemented
+        raise NotImplementedError
 
     @abstractmethod
     def create_all_groups(self):
-        raise NotImplemented
+        raise NotImplementedError
 
     @abstractmethod
     def update_group(self, mep_id: int, new_group: GroupsEnum) -> MEP:
-        raise NotImplemented
+        raise NotImplementedError
+
+    @abstractmethod
+    def get_all_votes(self, mep_id: int) -> List["NormalizedVote"]:
+        raise NotImplementedError
 
     @abstractmethod
     def update_activity_status(self, mep_id: int, activity_status: bool) -> MEP:
-        raise NotImplemented
+        raise NotImplementedError
 
     @abstractmethod
     def create_from_official_source(self, mep: EuropeanParliamentMEP) -> MEP:
-        raise NotImplemented
+        raise NotImplementedError
 
     @abstractmethod
     def create_batch_from_official_source(self, meps: List[EuropeanParliamentMEP]) -> int:
-        raise NotImplemented
+        raise NotImplementedError
 
 
 class EuropeanParliamentMEPSource:
@@ -88,11 +95,11 @@ class EuropeanParliamentMEPSource:
 
     @abstractmethod
     def get_updated_list(self) -> List[EuropeanParliamentMEP]:
-        raise NotImplemented
+        raise NotImplementedError
 
     @abstractmethod
     def get_outgoing_list(self) -> List[EuropeanParliamentMEP]:
-        raise NotImplemented
+        raise NotImplementedError
 
     @classmethod
     def group_full_name_to_short_political_group(cls, group_full_name: str) -> GroupsEnum:
