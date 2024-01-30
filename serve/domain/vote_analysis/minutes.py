@@ -92,6 +92,11 @@ class MinutesAggregate:
                 for i in range(1, len(votes_by_group), 2):
                     group_name = votes_by_group[i]
                     group_voters = votes_by_group[i + 1].replace('\n', '').split(', ')
+                    ######## QUICK/DIRTY FIX
+                    # GUE/NGL' changed its name to 'The Left', need reworking of the DB to take this case into account
+                    if group_name == 'The Left':
+                        group_name = 'GUE/NGL'
+                    #########
                     for name in group_voters:
                         mep = MEPReadFromMinutes(
                             name=name,
