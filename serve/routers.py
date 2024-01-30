@@ -51,7 +51,7 @@ def extract_votes_from_pdf(minutes_pdf: UploadFile,
         minutes_type=minutes_type,
         binding_value=binding_value,
         minutes_pdf=minutes_pdf.file,
-        amendment_ids=amendments_list[0].split(",")
+        amendment_ids=amendments_list[0].split(";")
     )
 
 
