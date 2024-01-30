@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 class GroupsEnum(Enum):
     ECR = "ECR"
-    GUE_NGL = "GUE/NGL"
+    GUE_NGL = "GUE/NGL"|"The Left"
     ID = "ID"
     NI = "NI"
     PPE = "PPE"
