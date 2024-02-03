@@ -1,10 +1,11 @@
-from serve.infra.european_parliament_official_source import XmlEuropeanParliamentMEPSource
+from serve.infra.european_parliament_official_source import \
+    XmlEuropeanParliamentMEPSource
 
 
 def test_get_updated_list_returns_correct_list_of_MEPS():
     # Given
-    expected_number_of_meps = 703
-    expected_number_of_outgoing_meps = 155
+    expected_number_of_meps = 705
+    expected_number_of_outgoing_meps = 158
     meps_source = "https://www.europarl.europa.eu/meps/en/full-list/xml"
     outgoing_meps_source = "https://www.europarl.europa.eu/meps/en/incoming-outgoing/outgoing/xml"
     meps_repository = XmlEuropeanParliamentMEPSource(meps_source, outgoing_meps_source)

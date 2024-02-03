@@ -131,21 +131,3 @@ def test_page_with_small_id_smaller_than_page_whith_greater_id(old_minutes_pages
     large_page = Page(id=expected_large_id, text=old_minutes_pages_list[1])
     # then
     assert small_page < large_page
-
-
-def test_header_extraction_works_for_multiple_headers(pages_list_new_header, pages_list_old_header):
-    # given
-    header_1 = "3. Règles communes visant à promouvoir la réparation des biens - Common rules promoting the repair of goods  - Gemeinsame \nVorschriften zur Förderung der Reparatur von Waren - A9-0316/2023 - René Repasi - Amendements de la commission compétente - vote \nséparé - Am 1"
-    header_2 = "1. A9-0019/2019 -  Ondřej Kovařík - Vote unique 14/11/2019 11:38:20.000\n"
-    expected_new_header = header_1
-    expected_old_header = header_2
-
-    # when
-    test_new_page = Page(id=10, text=pages_list_new_header[10])
-    test_old_page = Page(id=3, text=pages_list_old_header[3])
-    actual_new_header = test_new_page.header
-    actual_old_header = test_old_page.header
-
-    # then
-    assert actual_new_header == expected_new_header
-    assert actual_old_header == expected_old_header

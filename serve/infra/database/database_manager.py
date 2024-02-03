@@ -2,7 +2,7 @@ from collections.abc import Callable
 from contextlib import AbstractContextManager, contextmanager
 
 from sqlalchemy import create_engine, exc, orm
-from sqlalchemy.orm import declarative_base, Session
+from sqlalchemy.orm import Session, declarative_base
 
 from serve.infra.database.errors import DBError, DBErrorEnum, DBException
 from serve.logger import logger
@@ -12,8 +12,7 @@ Base = declarative_base()
 
 class Database:
     def __init__(self, db_url: str) -> None:
-        print("INIT DB")
-        self._engine = create_engine(db_url, echo=True)
+        self._engine = create_engine(db_url)
         self._session_factory = orm.scoped_session(
             orm.sessionmaker(
                 autocommit=False,

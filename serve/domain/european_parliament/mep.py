@@ -1,6 +1,6 @@
 from abc import abstractmethod
 from enum import Enum
-from typing import List, Dict, TYPE_CHECKING
+from typing import TYPE_CHECKING, Dict, List
 
 from pydantic import BaseModel
 
@@ -28,7 +28,7 @@ class Groups(BaseModel):
     group_full_name: str
 
 
-class MEP(BaseModel):
+class MEP(BaseModel, frozen=True):
     id: int
     full_name: str
     current_group_short_name: GroupsEnum

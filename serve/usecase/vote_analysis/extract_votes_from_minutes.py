@@ -1,19 +1,19 @@
 import time
-
-import regex as re
 from typing import Any, List
 
+import regex as re
 from pypdf import PdfReader
 from rapidfuzz.process import extractOne
 from rapidfuzz.utils import default_process
 
-from serve.domain.european_parliament.mep import MEPs, MEP
+from serve.domain.european_parliament.mep import MEP, MEPs
 from serve.domain.vote_analysis.mep import MEPReadFromMinutes
-from serve.domain.vote_analysis.minutes import MinutesAggregate, Amendments, Minutes
+from serve.domain.vote_analysis.minutes import (Amendments, Minutes,
+                                                MinutesAggregate)
 from serve.domain.vote_analysis.page import Page
-from serve.domain.vote_analysis.vote import Votes, NormalizedVote
+from serve.domain.vote_analysis.vote import NormalizedVote, Votes
 from serve.logger import logger
-from serve.usecase.errors import NotFoundException, NotFoundError
+from serve.usecase.errors import NotFoundError, NotFoundException
 
 
 class ExtractVotesFromMinutesUsecase:
@@ -42,11 +42,9 @@ class ExtractVotesFromMinutesUsecase:
             minutes_pdf: Any,
             amendment_ids: List[str]
     ):
-        print(amendment_ids)
         minutes = self.convert_minutes_from_pdf(minutes_id, minutes_type, binding_value, minutes_pdf)
         votes = MinutesAggregate.extract_votes_from_amendments(minutes, amendment_ids)
         normalized_votes = self.normalized_votes_read_from_minutes(votes)
-        # raise Exception
         self.amendments_repository.save_amendments(minutes, amendment_ids)
         self.votes_repository.save_votes(normalized_votes)
 
@@ -102,15 +100,7 @@ class ExtractVotesFromMinutesUsecase:
         page_list = []
         for page_number, page in enumerate(pdf.pages):
             page_text = page.extract_text()
-            page = Page(
-                    id=page_number,
-                    text=page_text
-                )
-            page_list.append(
-                page
-            )
-            if "A9-0343/2023 - Christian Ehler - Après le considérant 44 - Am 31" in page_text:
-                print(page)
+            page_list.append(Page(id=page_number, text=page_text))
         return Minutes(
             id=minutes_id,
             type=minutes_type,

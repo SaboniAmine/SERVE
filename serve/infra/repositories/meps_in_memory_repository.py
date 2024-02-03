@@ -1,6 +1,7 @@
 from typing import List
 
-from serve.domain.european_parliament.mep import EuropeanParliamentMEP, MEPs, MEP, GroupsEnum
+from serve.domain.european_parliament.mep import (MEP, EuropeanParliamentMEP,
+                                                  GroupsEnum, MEPs)
 from serve.domain.vote_analysis.vote import Vote
 
 
@@ -9,19 +10,19 @@ class MepsInMemoryRepository(MEPs):
         super().__init__()
         self.meps = [MEP(
             id="1",
-            full_name="John Doe",
+            full_name="John DOE",
             current_group_short_name=GroupsEnum.NI,
             country="France",
             is_active=True
         ), MEP(
             id="2",
-            full_name="Franck Alumni",
+            full_name="Franck ALUMNI",
             current_group_short_name=GroupsEnum.PPE,
             country="Germany",
             is_active=True
         ), MEP(
             id="3",
-            full_name="Gontran Bonheur",
+            full_name="Gontran BONHEUR",
             current_group_short_name=GroupsEnum.Renew,
             country="Spain",
             is_active=False

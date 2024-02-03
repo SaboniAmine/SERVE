@@ -93,6 +93,7 @@ def test_old_minutes_extract_votes_from_amendments_return_correct_votes(old_minu
     actual_minutes = Minutes(
         id="test_minutes",
         type="test_type",
+        binding_value=1,
         pages_list=[
             Page(id=i, text=text) for i, text in enumerate(old_minutes_pages_list)
         ]
@@ -118,6 +119,7 @@ def test_new_minutes_extract_votes_from_amendments_return_correct_votes(new_minu
     actual_minutes = Minutes(
         id="test_minutes",
         type="test_type",
+        binding_value=1,
         pages_list=[
             Page(id=i, text=text) for i, text in enumerate(new_minutes_pages_list)
         ]
