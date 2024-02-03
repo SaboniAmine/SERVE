@@ -2,12 +2,15 @@ from unittest import mock
 
 import pytest
 
-from serve.domain.european_parliament.mep import GroupsEnum, MEP
+from serve.domain.european_parliament.mep import MEP, GroupsEnum
 from serve.domain.vote_analysis.mep import MEPReadFromMinutes
-from serve.infra.repositories.amendments_sql_repository import AmendmentsSqlRepository
-from serve.infra.repositories.meps_in_memory_repository import MepsInMemoryRepository
+from serve.infra.repositories.amendments_sql_repository import \
+    AmendmentsSqlRepository
+from serve.infra.repositories.meps_in_memory_repository import \
+    MepsInMemoryRepository
 from serve.infra.repositories.votes_sql_repository import VotesSqlRepository
-from serve.usecase.vote_analysis.extract_votes_from_minutes import ExtractVotesFromMinutesUsecase
+from serve.usecase.vote_analysis.extract_votes_from_minutes import \
+    ExtractVotesFromMinutesUsecase
 
 
 @pytest.fixture
@@ -27,7 +30,7 @@ def test_build_mep_from_name_returns_correct_mep_from_last_name_and_group(extrac
     # Given
     expected_mep = MEP(
         id="1",
-        full_name="John Doe",
+        full_name="John DOE",
         current_group_short_name=GroupsEnum.NI,
         country="France",
         is_active=True
@@ -47,7 +50,7 @@ def test_build_mep_from_name_returns_correct_mep_from_last_name_and_group_when_g
     # Given
     expected_mep = MEP(
         id="1",
-        full_name="John Doe",
+        full_name="John DOE",
         current_group_short_name=GroupsEnum.NI,
         country="France",
         is_active=True

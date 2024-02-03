@@ -28,8 +28,8 @@ class Minutes(BaseModel):
     id: str
     type: Optional[str]
     pages_list: List[Page]
-    date: str = None
     binding_value: int
+    date: str = None
     amendments_list: List[Amendment] = []
 
     def _get_amendment_infos_from_body(self) -> Dict:
@@ -78,7 +78,7 @@ class MinutesAggregate:
         for amendment in amendments:
             original_votes = amendment.get_str_amendment_votes()
             # split vote by category (for, against, null)
-            regex_vote_categories = r"(\d+)([+0-])"
+            regex_vote_categories = r"(\d+)\s?([+0-])"
             votes_by_category = re.split(regex_vote_categories, original_votes)[1:]
 
             # for every vote category, extract the deputies
@@ -92,22 +92,18 @@ class MinutesAggregate:
                 for i in range(1, len(votes_by_group), 2):
                     group_name = votes_by_group[i]
                     group_voters = votes_by_group[i + 1].replace('\n', '').split(', ')
-                    ######## QUICK/DIRTY FIX
+                    # QUICK/DIRTY FIX
                     # GUE/NGL' changed its name to 'The Left', need reworking of the DB to take this case into account
                     if group_name == 'The Left':
                         group_name = 'GUE/NGL'
                     #########
                     for name in group_voters:
-                        mep = MEPReadFromMinutes(
-                            name=name,
-                            current_group_short_name=group_name
-                        )
+                        mep = MEPReadFromMinutes(name=name.rstrip(), current_group_short_name=group_name)
                         votes.append(Vote(amendment_id=amendment.id, value=vote_category, mep=mep))
                         extracted_category_votes += 1
-                try:
-                    assert expected_category_total_votes == extracted_category_votes  # transformer exception métier
-                except AssertionError:
-                    logger.warning(f'Delta between expected number of votes ({expected_category_total_votes}) and extracted number of votes ({extracted_category_votes}).')
+                if expected_category_total_votes != extracted_category_votes:
+                    logger.warning(f'Delta between expected number of votes ({expected_category_total_votes})'
+                                   f'and extracted number of votes ({extracted_category_votes}).')
         return votes
 
 

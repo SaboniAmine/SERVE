@@ -25,7 +25,7 @@ class Page(BaseModel):
             footer_found = re.findall(footer_regex, self.text)
             if len(footer_found) == 1:
                 self.footer = footer_found[0]
-                self.text = re.split(footer_regex, self.text)[1]
+                self.text = re.split(footer_regex, self.text)[1].lstrip()
             elif len(footer_found) > 1:
                 raise Exception('Error extracting footer, found multiple match.')
         return self
@@ -33,10 +33,10 @@ class Page(BaseModel):
     @model_validator(mode="after")
     def extract_header(self) -> "Page":
         if self.header is None:
-            header_regex = r"^\d+\.\s[\S\s]+?\n(?=\d+[+\-0]\n)"
+            header_regex = r"^\d+\.\s[\S\s]+?\n(?=\d+\s?[+\-0]\s?\n)"
             header_found = re.findall(header_regex, self.text)
             if len(header_found) == 1:
-                self.header = header_found[0].replace('\n', '')
+                self.header = header_found[0].replace('\n', '').rstrip()
                 self.text = re.split(header_regex, self.text)[1]
             elif len(header_found) > 1:
                 raise Exception('Error extracting header, found multiple match.')
