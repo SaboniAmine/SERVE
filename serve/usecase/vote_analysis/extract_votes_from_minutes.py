@@ -14,6 +14,7 @@ from serve.domain.vote_analysis.page import Page
 from serve.domain.vote_analysis.vote import NormalizedVote, Votes
 from serve.logger import logger
 from serve.usecase.errors import NotFoundError, NotFoundException
+import pandas as pd
 
 
 class ExtractVotesFromMinutesUsecase:
@@ -45,6 +46,21 @@ class ExtractVotesFromMinutesUsecase:
         minutes = self.convert_minutes_from_pdf(minutes_id, minutes_type, binding_value, minutes_pdf)
         votes = MinutesAggregate.extract_votes_from_amendments(minutes, amendment_ids)
         normalized_votes = self.normalized_votes_read_from_minutes(votes)
+        matches_df = pd.DataFrame()
+
+        for i, normalized_vote in enumerate(normalized_votes):
+            amendment_id = normalized_vote.amendment_id
+            mep_id = normalized_vote.mep.id
+            mep_match = normalized_vote.mep.full_name
+            name = votes[i].mep.name
+            group_mep = votes[i].mep.current_group_short_name
+            value = normalized_vote.value
+            group = normalized_vote.group_id_at_vote
+            row = pd.DataFrame([amendment_id, mep_id, group_mep, mep_match, name, value, group]).T
+            matches_df = pd.concat([matches_df, row], ignore_index=True, axis = 0)
+
+        matches_df.to_csv('tests/data/matches/' + minutes.date.replace("/", "_") + '.csv', encoding='utf-8', mode='a')
+        logger.info(f'Done saving votes matching for the {minutes.date}')
         self.amendments_repository.save_amendments(minutes, amendment_ids)
         self.votes_repository.save_votes(normalized_votes)
 

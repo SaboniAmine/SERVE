@@ -1,0 +1,685 @@
+0,B9-0233/2019 - Am 3,197467,GroupsEnum.ECR,Geert BOURGEOIS,Bourgeois,+,GroupsEnum.ECR
+1,B9-0233/2019 - Am 3,251874,GroupsEnum.ECR,Niels GEUKING,Geuking,+,GroupsEnum.ECR
+2,B9-0233/2019 - Am 3,197469,GroupsEnum.ECR,Assita KANKO,Kanko,+,GroupsEnum.ECR
+3,B9-0233/2019 - Am 3,125106,GroupsEnum.ECR,Johan VAN OVERTVELDT,Van Overtveldt,+,GroupsEnum.ECR
+4,B9-0233/2019 - Am 3,197701,GroupsEnum.GUE_NGL,Konstantinos ARVANITIS,Arvanitis,+,GroupsEnum.GUE_NGL
+5,B9-0233/2019 - Am 3,197533,GroupsEnum.GUE_NGL,Manon AUBRY,Aubry,+,GroupsEnum.GUE_NGL
+6,B9-0233/2019 - Am 3,197684,GroupsEnum.GUE_NGL,Pernando BARRENA ARZA,Barrena Arza,+,GroupsEnum.GUE_NGL
+7,B9-0233/2019 - Am 3,197521,GroupsEnum.GUE_NGL,Manuel BOMPARD,Bompard,+,GroupsEnum.GUE_NGL
+8,B9-0233/2019 - Am 3,187917,GroupsEnum.GUE_NGL,Marc BOTENGA,Botenga,+,GroupsEnum.GUE_NGL
+9,B9-0233/2019 - Am 3,197434,GroupsEnum.GUE_NGL,Martin BUSCHMANN,Buschmann,+,GroupsEnum.GUE_NGL
+10,B9-0233/2019 - Am 3,197529,GroupsEnum.GUE_NGL,Leila CHAIBI,Chaibi,+,GroupsEnum.GUE_NGL
+11,B9-0233/2019 - Am 3,197731,GroupsEnum.GUE_NGL,Clare DALY,Daly,+,GroupsEnum.GUE_NGL
+12,B9-0233/2019 - Am 3,197468,GroupsEnum.GUE_NGL,Özlem DEMIREL,Demirel,+,GroupsEnum.GUE_NGL
+13,B9-0233/2019 - Am 3,96852,GroupsEnum.GUE_NGL,Cornelia ERNST,Ernst,+,GroupsEnum.GUE_NGL
+14,B9-0233/2019 - Am 3,96706,GroupsEnum.GUE_NGL,João FERREIRA,Ferreira,+,GroupsEnum.GUE_NGL
+15,B9-0233/2019 - Am 3,124985,GroupsEnum.GUE_NGL,Luke Ming FLANAGAN,Flanagan,+,GroupsEnum.GUE_NGL
+16,B9-0233/2019 - Am 3,197416,GroupsEnum.GUE_NGL,Giorgos GEORGIOU,Georgiou,+,GroupsEnum.GUE_NGL
+17,B9-0233/2019 - Am 3,197819,GroupsEnum.GUE_NGL,Alexis GEORGOULIS,Georgoulis,+,GroupsEnum.GUE_NGL
+18,B9-0233/2019 - Am 3,88715,GroupsEnum.GUE_NGL,José GUSMÃO,Gusmão,+,GroupsEnum.GUE_NGL
+19,B9-0233/2019 - Am 3,125023,GroupsEnum.GUE_NGL,Anja HAZEKAMP,Hazekamp,+,GroupsEnum.GUE_NGL
+20,B9-0233/2019 - Am 3,197415,GroupsEnum.GUE_NGL,Niyazi KIZILYÜREK,Kizilyürek,+,GroupsEnum.GUE_NGL
+21,B9-0233/2019 - Am 3,197743,GroupsEnum.GUE_NGL,Petros KOKKALIS,Kokkalis,+,GroupsEnum.GUE_NGL
+22,B9-0233/2019 - Am 3,23699,GroupsEnum.GUE_NGL,Kateřina KONEČNÁ,Konečná,+,GroupsEnum.GUE_NGL
+23,B9-0233/2019 - Am 3,130833,GroupsEnum.GUE_NGL,Stelios KOULOGLOU,Kouloglou,+,GroupsEnum.GUE_NGL
+24,B9-0233/2019 - Am 3,197699,GroupsEnum.GUE_NGL,Elena KOUNTOURA,Kountoura,+,GroupsEnum.GUE_NGL
+25,B9-0233/2019 - Am 3,96820,GroupsEnum.GUE_NGL,Marisa MATIAS,Matias,+,GroupsEnum.GUE_NGL
+26,B9-0233/2019 - Am 3,24505,GroupsEnum.GUE_NGL,Emmanuel MAUREL,Maurel,+,GroupsEnum.GUE_NGL
+27,B9-0233/2019 - Am 3,120478,GroupsEnum.GUE_NGL,Martina MICHELS,Michels,+,GroupsEnum.GUE_NGL
+28,B9-0233/2019 - Am 3,197805,GroupsEnum.GUE_NGL,Silvia MODIG,Modig,+,GroupsEnum.GUE_NGL
+29,B9-0233/2019 - Am 3,30482,GroupsEnum.GUE_NGL,Younous OMARJEE,Omarjee,+,GroupsEnum.GUE_NGL
+30,B9-0233/2019 - Am 3,28586,GroupsEnum.GUE_NGL,Dimitrios PAPADIMOULIS,Papadimoulis,+,GroupsEnum.GUE_NGL
+31,B9-0233/2019 - Am 3,197527,GroupsEnum.GUE_NGL,Anne-Sophie PELLETIER,Pelletier,+,GroupsEnum.GUE_NGL
+32,B9-0233/2019 - Am 3,197754,GroupsEnum.GUE_NGL,Sandra PEREIRA,Pereira Sandra,+,GroupsEnum.GUE_NGL
+33,B9-0233/2019 - Am 3,197681,GroupsEnum.GUE_NGL,Sira REGO,Rego,+,GroupsEnum.GUE_NGL
+34,B9-0233/2019 - Am 3,197785,GroupsEnum.GUE_NGL,Eugenia RODRÍGUEZ PALOP,Rodríguez Palop,+,GroupsEnum.GUE_NGL
+35,B9-0233/2019 - Am 3,190517,GroupsEnum.GUE_NGL,Martin SCHIRDEWAN,Schirdewan,+,GroupsEnum.GUE_NGL
+36,B9-0233/2019 - Am 3,96646,GroupsEnum.GUE_NGL,Helmut SCHOLZ,Scholz,+,GroupsEnum.GUE_NGL
+37,B9-0233/2019 - Am 3,131507,GroupsEnum.GUE_NGL,Miguel URBÁN CRESPO,Urbán Crespo,+,GroupsEnum.GUE_NGL
+38,B9-0233/2019 - Am 3,197827,GroupsEnum.GUE_NGL,Idoia VILLANUEVA RUIZ,Villanueva Ruiz,+,GroupsEnum.GUE_NGL
+39,B9-0233/2019 - Am 3,197571,GroupsEnum.GUE_NGL,Nikolaj VILLUMSEN,Villumsen,+,GroupsEnum.GUE_NGL
+40,B9-0233/2019 - Am 3,197817,GroupsEnum.GUE_NGL,Mick WALLACE,Wallace,+,GroupsEnum.GUE_NGL
+41,B9-0233/2019 - Am 3,197691,GroupsEnum.ID,Mathilde ANDROUËT,Androuët,+,GroupsEnum.ID
+42,B9-0233/2019 - Am 3,124973,GroupsEnum.ID,Gerolf ANNEMANS,Annemans,+,GroupsEnum.ID
+43,B9-0233/2019 - Am 3,131580,GroupsEnum.ID,Jordan BARDELLA,Bardella,+,GroupsEnum.ID
+44,B9-0233/2019 - Am 3,124760,GroupsEnum.ID,Nicolas BAY,Bay,+,GroupsEnum.ID
+45,B9-0233/2019 - Am 3,197680,GroupsEnum.ID,Aurélia BEIGNEUX,Beigneux,+,GroupsEnum.ID
+46,B9-0233/2019 - Am 3,124771,GroupsEnum.ID,Dominique BILDE,Bilde,+,GroupsEnum.ID
+47,B9-0233/2019 - Am 3,197564,GroupsEnum.ID,Hynek BLAŠKO,Blaško,+,GroupsEnum.ID
+48,B9-0233/2019 - Am 3,182995,GroupsEnum.ID,Annika BRUNA,Bruna,+,GroupsEnum.ID
+49,B9-0233/2019 - Am 3,197472,GroupsEnum.ID,Filip DE MAN,De Man,+,GroupsEnum.ID
+50,B9-0233/2019 - Am 3,197614,GroupsEnum.ID,Marco DREOSTO,Dreosto,+,GroupsEnum.ID
+51,B9-0233/2019 - Am 3,197628,GroupsEnum.ID,Jean-Paul GARRAUD,Garraud,+,GroupsEnum.ID
+52,B9-0233/2019 - Am 3,94649,GroupsEnum.ID,Catherine GRISET,Griset,+,GroupsEnum.ID
+53,B9-0233/2019 - Am 3,198176,GroupsEnum.ID,Roman HAIDER,Haider,+,GroupsEnum.ID
+54,B9-0233/2019 - Am 3,124770,GroupsEnum.ID,Jean-François JALKH,Jalkh,+,GroupsEnum.ID
+55,B9-0233/2019 - Am 3,189065,GroupsEnum.ID,France JAMET,Jamet,+,GroupsEnum.ID
+56,B9-0233/2019 - Am 3,197627,GroupsEnum.ID,Virginie JORON,Joron,+,GroupsEnum.ID
+57,B9-0233/2019 - Am 3,197597,GroupsEnum.ID,Hélène LAPORTE,Laporte,+,GroupsEnum.ID
+58,B9-0233/2019 - Am 3,124738,GroupsEnum.ID,Gilles LEBRETON,Lebreton,+,GroupsEnum.ID
+59,B9-0233/2019 - Am 3,197623,GroupsEnum.ID,Thierry MARIANI,Mariani,+,GroupsEnum.ID
+60,B9-0233/2019 - Am 3,38511,GroupsEnum.ID,Georg MAYER,Mayer,+,GroupsEnum.ID
+61,B9-0233/2019 - Am 3,124765,GroupsEnum.ID,Joëlle MÉLIN,Mélin,+,GroupsEnum.ID
+62,B9-0233/2019 - Am 3,197687,GroupsEnum.ID,Philippe OLIVIER,Olivier,+,GroupsEnum.ID
+63,B9-0233/2019 - Am 3,197629,GroupsEnum.ID,Maxette PIRBAKAS,Pirbakas,+,GroupsEnum.ID
+64,B9-0233/2019 - Am 3,197615,GroupsEnum.ID,Jérôme RIVIÈRE,Rivière,+,GroupsEnum.ID
+65,B9-0233/2019 - Am 3,197690,GroupsEnum.ID,André ROUGÉ,Rougé,+,GroupsEnum.ID
+66,B9-0233/2019 - Am 3,185771,GroupsEnum.ID,Tom VANDENDRIESSCHE,Vandendriessche,+,GroupsEnum.ID
+67,B9-0233/2019 - Am 3,125001,GroupsEnum.ID,Harald VILIMSKY,Vilimsky,+,GroupsEnum.ID
+68,B9-0233/2019 - Am 3,124831,GroupsEnum.NI,Isabella ADINOLFI,Adinolfi Isabella,+,GroupsEnum.NI
+69,B9-0233/2019 - Am 3,124777,GroupsEnum.NI,Tiziana BEGHIN,Beghin,+,GroupsEnum.NI
+70,B9-0233/2019 - Am 3,124812,GroupsEnum.NI,Fabio Massimo CASTALDO,Castaldo,+,GroupsEnum.NI
+71,B9-0233/2019 - Am 3,124856,GroupsEnum.NI,Ignazio CORRAO,Corrao,+,GroupsEnum.NI
+72,B9-0233/2019 - Am 3,124835,GroupsEnum.NI,Rosa D'AMATO,D'Amato,+,GroupsEnum.NI
+73,B9-0233/2019 - Am 3,124779,GroupsEnum.NI,Eleonora EVI,Evi,+,GroupsEnum.NI
+74,B9-0233/2019 - Am 3,197795,GroupsEnum.NI,Mario FURORE,Furore,+,GroupsEnum.NI
+75,B9-0233/2019 - Am 3,197794,GroupsEnum.NI,Chiara GEMMA,Gemma,+,GroupsEnum.NI
+76,B9-0233/2019 - Am 3,197804,GroupsEnum.NI,Dino GIARRUSSO,Giarrusso,+,GroupsEnum.NI
+77,B9-0233/2019 - Am 3,198063,GroupsEnum.NI,Márton GYÖNGYÖSI,Gyöngyösi,+,GroupsEnum.NI
+78,B9-0233/2019 - Am 3,124844,GroupsEnum.NI,Piernicola PEDICINI,Pedicini,+,GroupsEnum.NI
+79,B9-0233/2019 - Am 3,197619,GroupsEnum.NI,Sabrina PIGNEDOLI,Pignedoli,+,GroupsEnum.NI
+80,B9-0233/2019 - Am 3,197764,GroupsEnum.NI,Miroslav RADAČOVSKÝ,Radačovský,+,GroupsEnum.NI
+81,B9-0233/2019 - Am 3,124834,GroupsEnum.NI,Martin SONNEBORN,Sonneborn,+,GroupsEnum.NI
+82,B9-0233/2019 - Am 3,197763,GroupsEnum.NI,Milan UHRÍK,Uhrík,+,GroupsEnum.NI
+83,B9-0233/2019 - Am 3,125237,GroupsEnum.NI,Marco ZULLO,Zullo,+,GroupsEnum.NI
+84,B9-0233/2019 - Am 3,197490,GroupsEnum.PPE,Magdalena ADAMOWICZ,Adamowicz,+,GroupsEnum.PPE
+85,B9-0233/2019 - Am 3,189525,GroupsEnum.PPE,Asim ADEMOV,Ademov,+,GroupsEnum.PPE
+86,B9-0233/2019 - Am 3,197836,GroupsEnum.PPE,Alexander ALEXANDROV YORDANOV,Alexandrov Yordanov,+,GroupsEnum.PPE
+87,B9-0233/2019 - Am 3,24922,GroupsEnum.PPE,Pascal ARIMONT,Arimont,+,GroupsEnum.PPE
+88,B9-0233/2019 - Am 3,197695,GroupsEnum.PPE,Anna-Michelle ASIMAKOPOULOU,Asimakopoulou,+,GroupsEnum.PPE
+89,B9-0233/2019 - Am 3,26837,GroupsEnum.PPE,Lefteris CHRISTOFOROU,Christoforou,+,GroupsEnum.PPE
+90,B9-0233/2019 - Am 3,197414,GroupsEnum.PPE,Loucas FOURLAS,Fourlas,+,GroupsEnum.PPE
+91,B9-0233/2019 - Am 3,193419,GroupsEnum.PPE,Christophe HANSEN,Hansen,+,GroupsEnum.PPE
+92,B9-0233/2019 - Am 3,197839,GroupsEnum.PPE,Radan KANEV,Kanev,+,GroupsEnum.PPE
+93,B9-0233/2019 - Am 3,97968,GroupsEnum.PPE,Andrey KOVATCHEV,Kovatchev,+,GroupsEnum.PPE
+94,B9-0233/2019 - Am 3,197692,GroupsEnum.PPE,Stelios KYMPOUROPOULOS,Kympouropoulos,+,GroupsEnum.PPE
+95,B9-0233/2019 - Am 3,125063,GroupsEnum.PPE,Georgios KYRTSOS,Kyrtsos,+,GroupsEnum.PPE
+96,B9-0233/2019 - Am 3,96791,GroupsEnum.PPE,Elżbieta Katarzyna ŁUKACIJEWSKA,Łukacijewska,+,GroupsEnum.PPE
+97,B9-0233/2019 - Am 3,197458,GroupsEnum.PPE,Benoît LUTGEN,Lutgen,+,GroupsEnum.PPE
+98,B9-0233/2019 - Am 3,98341,GroupsEnum.PPE,Eva MAYDELL,Maydell,+,GroupsEnum.PPE
+99,B9-0233/2019 - Am 3,96978,GroupsEnum.PPE,Nuno MELO,Melo,+,GroupsEnum.PPE
+100,B9-0233/2019 - Am 3,107212,GroupsEnum.PPE,Andrey NOVAKOV,Novakov,+,GroupsEnum.PPE
+101,B9-0233/2019 - Am 3,40599,GroupsEnum.PPE,Sirpa PIETIKÄINEN,Pietikäinen,+,GroupsEnum.PPE
+102,B9-0233/2019 - Am 3,124704,GroupsEnum.PPE,Stanislav POLČÁK,Polčák,+,GroupsEnum.PPE
+103,B9-0233/2019 - Am 3,124850,GroupsEnum.PPE,Emil RADEV,Radev,+,GroupsEnum.PPE
+104,B9-0233/2019 - Am 3,125064,GroupsEnum.PPE,Maria SPYRAKI,Spyraki,+,GroupsEnum.PPE
+105,B9-0233/2019 - Am 3,96776,GroupsEnum.PPE,Róża THUN UND HOHENSTEIN,Thun und Hohenstein,+,GroupsEnum.PPE
+106,B9-0233/2019 - Am 3,125065,GroupsEnum.PPE,Elissavet VOZEMBERG-VRIONIDI,Vozemberg-Vrionidi,+,GroupsEnum.PPE
+107,B9-0233/2019 - Am 3,125067,GroupsEnum.PPE,Theodoros ZAGORAKIS,Zagorakis,+,GroupsEnum.PPE
+108,B9-0233/2019 - Am 3,197400,GroupsEnum.Renew,Abir AL-SAHLANI,Al-Sahlani,+,GroupsEnum.Renew
+109,B9-0233/2019 - Am 3,124696,GroupsEnum.Renew,Andrus ANSIP,Ansip,+,GroupsEnum.Renew
+110,B9-0233/2019 - Am 3,124766,GroupsEnum.Renew,Petras AUŠTREVIČIUS,Auštrevičius,+,GroupsEnum.Renew
+111,B9-0233/2019 - Am 3,197779,GroupsEnum.Renew,José Ramón BAUZÁ DÍAZ,Bauzá Díaz,+,GroupsEnum.Renew
+112,B9-0233/2019 - Am 3,96955,GroupsEnum.Renew,Catherine BEARDER,Bearder,+,GroupsEnum.Renew
+113,B9-0233/2019 - Am 3,197551,GroupsEnum.Renew,Stéphane BIJOUX,Bijoux,+,GroupsEnum.Renew
+114,B9-0233/2019 - Am 3,197668,GroupsEnum.Renew,Vlad-Marius BOTOŞ,Botoş,+,GroupsEnum.Renew
+115,B9-0233/2019 - Am 3,197577,GroupsEnum.Renew,Gilles BOYER,Boyer,+,GroupsEnum.Renew
+116,B9-0233/2019 - Am 3,197716,GroupsEnum.Renew,Jane BROPHY,Brophy,+,GroupsEnum.Renew
+117,B9-0233/2019 - Am 3,197576,GroupsEnum.Renew,Sylvie BRUNET,Brunet,+,GroupsEnum.Renew
+118,B9-0233/2019 - Am 3,197739,GroupsEnum.Renew,Judith BUNTING,Bunting,+,GroupsEnum.Renew
+119,B9-0233/2019 - Am 3,126644,GroupsEnum.Renew,Jordi CAÑAS,Cañas,+,GroupsEnum.Renew
+120,B9-0233/2019 - Am 3,96711,GroupsEnum.Renew,Pascal CANFIN,Canfin,+,GroupsEnum.Renew
+121,B9-0233/2019 - Am 3,197505,GroupsEnum.Renew,Catherine CHABAUD,Chabaud,+,GroupsEnum.Renew
+122,B9-0233/2019 - Am 3,124708,GroupsEnum.Renew,Dita CHARANZOVÁ,Charanzová,+,GroupsEnum.Renew
+123,B9-0233/2019 - Am 3,197631,GroupsEnum.Renew,Dacian CIOLOŞ,Cioloş,+,GroupsEnum.Renew
+124,B9-0233/2019 - Am 3,197588,GroupsEnum.Renew,Katalin CSEH,Cseh,+,GroupsEnum.Renew
+125,B9-0233/2019 - Am 3,4554,GroupsEnum.Renew,Chris DAVIES,Davies,+,GroupsEnum.Renew
+126,B9-0233/2019 - Am 3,197504,GroupsEnum.Renew,Jérémy DECERLE,Decerle,+,GroupsEnum.Renew
+127,B9-0233/2019 - Am 3,197693,GroupsEnum.Renew,Dinesh DHAMIJA,Dhamija,+,GroupsEnum.Renew
+128,B9-0233/2019 - Am 3,197595,GroupsEnum.Renew,Anna Júlia DONÁTH,Donáth,+,GroupsEnum.Renew
+129,B9-0233/2019 - Am 3,124693,GroupsEnum.Renew,Pascal DURAND,Durand,+,GroupsEnum.Renew
+130,B9-0233/2019 - Am 3,197589,GroupsEnum.Renew,Laurence FARRENG,Farreng,+,GroupsEnum.Renew
+131,B9-0233/2019 - Am 3,124989,GroupsEnum.Renew,Fredrick FEDERLEY,Federley,+,GroupsEnum.Renew
+132,B9-0233/2019 - Am 3,197419,GroupsEnum.Renew,Valter FLEGO,Flego,+,GroupsEnum.Renew
+133,B9-0233/2019 - Am 3,197632,GroupsEnum.Renew,Claudia GAMON,Gamon,+,GroupsEnum.Renew
+134,B9-0233/2019 - Am 3,197554,GroupsEnum.Renew,Luis GARICANO,Garicano,+,GroupsEnum.Renew
+135,B9-0233/2019 - Am 3,197661,GroupsEnum.Renew,Cristian GHINEA,Ghinea,+,GroupsEnum.Renew
+136,B9-0233/2019 - Am 3,197600,GroupsEnum.Renew,Barbara Ann GIBSON,Gibson,+,GroupsEnum.Renew
+137,B9-0233/2019 - Am 3,840,GroupsEnum.Renew,Charles GOERENS,Goerens,+,GroupsEnum.Renew
+138,B9-0233/2019 - Am 3,197452,GroupsEnum.Renew,Klemen GROŠELJ,Grošelj,+,GroupsEnum.Renew
+139,B9-0233/2019 - Am 3,197557,GroupsEnum.Renew,Christophe GRUDLER,Grudler,+,GroupsEnum.Renew
+140,B9-0233/2019 - Am 3,197543,GroupsEnum.Renew,Bernard GUETTA,Guetta,+,GroupsEnum.Renew
+141,B9-0233/2019 - Am 3,135511,GroupsEnum.Renew,Valérie HAYER,Hayer,+,GroupsEnum.Renew
+142,B9-0233/2019 - Am 3,197770,GroupsEnum.Renew,Martin HOJSÍK,Hojsík,+,GroupsEnum.Renew
+143,B9-0233/2019 - Am 3,197730,GroupsEnum.Renew,Antony HOOK,Hook,+,GroupsEnum.Renew
+144,B9-0233/2019 - Am 3,197755,GroupsEnum.Renew,Martin HORWOOD,Horwood,+,GroupsEnum.Renew
+145,B9-0233/2019 - Am 3,197624,GroupsEnum.Renew,Ivars IJABS,Ijabs,+,GroupsEnum.Renew
+146,B9-0233/2019 - Am 3,28266,GroupsEnum.Renew,Sophia IN 'T VELD,in 't Veld,+,GroupsEnum.Renew
+147,B9-0233/2019 - Am 3,197447,GroupsEnum.Renew,Irena JOVEVA,Joveva,+,GroupsEnum.Renew
+148,B9-0233/2019 - Am 3,197585,GroupsEnum.Renew,Pierre KARLESKIND,Karleskind,+,GroupsEnum.Renew
+149,B9-0233/2019 - Am 3,197401,GroupsEnum.Renew,Karin KARLSBRO,Karlsbro,+,GroupsEnum.Renew
+150,B9-0233/2019 - Am 3,22858,GroupsEnum.Renew,Fabienne KELLER,Keller Fabienne,+,GroupsEnum.Renew
+151,B9-0233/2019 - Am 3,197494,GroupsEnum.Renew,Nathalie LOISEAU,Loiseau,+,GroupsEnum.Renew
+152,B9-0233/2019 - Am 3,197567,GroupsEnum.Renew,Karen MELCHIOR,Melchior,+,GroupsEnum.Renew
+153,B9-0233/2019 - Am 3,197811,GroupsEnum.Renew,Shaffaq MOHAMMED,Mohammed,+,GroupsEnum.Renew
+154,B9-0233/2019 - Am 3,125005,GroupsEnum.Renew,Javier NART,Nart,+,GroupsEnum.Renew
+155,B9-0233/2019 - Am 3,197604,GroupsEnum.Renew,Lucy NETHSINGHA,Nethsingha,+,GroupsEnum.Renew
+156,B9-0233/2019 - Am 3,1394,GroupsEnum.Renew,Bill NEWTON DUNN,Newton Dunn,+,GroupsEnum.Renew
+157,B9-0233/2019 - Am 3,129073,GroupsEnum.Renew,Urmas PAET,Paet,+,GroupsEnum.Renew
+158,B9-0233/2019 - Am 3,125038,GroupsEnum.Renew,Maite PAGAZAURTUNDÚA,Pagazaurtundúa,+,GroupsEnum.Renew
+159,B9-0233/2019 - Am 3,124872,GroupsEnum.Renew,Morten PETERSEN,Petersen,+,GroupsEnum.Renew
+160,B9-0233/2019 - Am 3,197663,GroupsEnum.Renew,Dragoş PÎSLARU,Pîslaru,+,GroupsEnum.Renew
+161,B9-0233/2019 - Am 3,197700,GroupsEnum.Renew,Luisa PORRITT,Porritt,+,GroupsEnum.Renew
+162,B9-0233/2019 - Am 3,197868,GroupsEnum.Renew,Samira RAFAELA,Rafaela,+,GroupsEnum.Renew
+163,B9-0233/2019 - Am 3,4253,GroupsEnum.Renew,Frédérique RIES,Ries,+,GroupsEnum.Renew
+164,B9-0233/2019 - Am 3,96885,GroupsEnum.Renew,Dominique RIQUET,Riquet,+,GroupsEnum.Renew
+165,B9-0233/2019 - Am 3,197815,GroupsEnum.Renew,Sheila RITCHIE,Ritchie,+,GroupsEnum.Renew
+166,B9-0233/2019 - Am 3,4344,GroupsEnum.Renew,María Soraya RODRÍGUEZ RAMOS,Rodríguez Ramos,+,GroupsEnum.Renew
+167,B9-0233/2019 - Am 3,197869,GroupsEnum.Renew,Liesje SCHREINEMACHER,Schreinemacher,+,GroupsEnum.Renew
+168,B9-0233/2019 - Am 3,197508,GroupsEnum.Renew,Stéphane SÉJOURNÉ,Séjourné,+,GroupsEnum.Renew
+169,B9-0233/2019 - Am 3,197418,GroupsEnum.Renew,Monica SEMEDO,Semedo,+,GroupsEnum.Renew
+170,B9-0233/2019 - Am 3,103746,GroupsEnum.Renew,Michal ŠIMEČKA,Šimečka,+,GroupsEnum.Renew
+171,B9-0233/2019 - Am 3,197784,GroupsEnum.Renew,Susana SOLÍS PÉREZ,Solís Pérez,+,GroupsEnum.Renew
+172,B9-0233/2019 - Am 3,58766,GroupsEnum.Renew,Nicolae ŞTEFĂNUȚĂ,Ştefănuță,+,GroupsEnum.Renew
+173,B9-0233/2019 - Am 3,134605,GroupsEnum.Renew,Ramona STRUGARIU,Strugariu,+,GroupsEnum.Renew
+174,B9-0233/2019 - Am 3,197547,GroupsEnum.Renew,Irène TOLLERET,Tolleret,+,GroupsEnum.Renew
+175,B9-0233/2019 - Am 3,124700,GroupsEnum.Renew,Jana TOOM,Toom,+,GroupsEnum.Renew
+176,B9-0233/2019 - Am 3,114268,GroupsEnum.Renew,Nils TORVALDS,Torvalds,+,GroupsEnum.Renew
+177,B9-0233/2019 - Am 3,197593,GroupsEnum.Renew,Véronique TRILLET-LENOIR,Trillet-Lenoir,+,GroupsEnum.Renew
+178,B9-0233/2019 - Am 3,197665,GroupsEnum.Renew,Dragoş TUDORACHE,Tudorache,+,GroupsEnum.Renew
+179,B9-0233/2019 - Am 3,96698,GroupsEnum.Renew,Viktor USPASKICH,Uspaskich,+,GroupsEnum.Renew
+180,B9-0233/2019 - Am 3,197502,GroupsEnum.Renew,Marie-Pierre VEDRENNE,Vedrenne,+,GroupsEnum.Renew
+181,B9-0233/2019 - Am 3,97058,GroupsEnum.Renew,Guy VERHOFSTADT,Verhofstadt,+,GroupsEnum.Renew
+182,B9-0233/2019 - Am 3,197625,GroupsEnum.Renew,Irina VON WIESE,Von Wiese,+,GroupsEnum.Renew
+183,B9-0233/2019 - Am 3,197581,GroupsEnum.Renew,Stéphanie YON-COURTIN,Yon-Courtin,+,GroupsEnum.Renew
+184,B9-0233/2019 - Am 3,197499,GroupsEnum.Renew,Chrysoula ZACHAROPOULOU,Zacharopoulou,+,GroupsEnum.Renew
+185,B9-0233/2019 - Am 3,197403,GroupsEnum.SD,Alex AGIUS SALIBA,Agius Saliba,+,GroupsEnum.SD
+186,B9-0233/2019 - Am 3,197783,GroupsEnum.SD,Andris AMERIKS,Ameriks,+,GroupsEnum.SD
+187,B9-0233/2019 - Am 3,125110,GroupsEnum.SD,Nikos ANDROULAKIS,Androulakis,+,GroupsEnum.SD
+188,B9-0233/2019 - Am 3,202073,GroupsEnum.SD,Marc ANGEL,Angel,+,GroupsEnum.SD
+189,B9-0233/2019 - Am 3,197587,GroupsEnum.SD,Attila ARA-KOVÁCS,Ara-Kovács,+,GroupsEnum.SD
+190,B9-0233/2019 - Am 3,124936,GroupsEnum.SD,Maria ARENA,Arena,+,GroupsEnum.SD
+191,B9-0233/2019 - Am 3,197495,GroupsEnum.SD,Marek Paweł BALT,Balt,+,GroupsEnum.SD
+192,B9-0233/2019 - Am 3,197433,GroupsEnum.SD,Katarina BARLEY,Barley,+,GroupsEnum.SD
+193,B9-0233/2019 - Am 3,197808,GroupsEnum.SD,Pietro BARTOLO,Bartolo,+,GroupsEnum.SD
+194,B9-0233/2019 - Am 3,197658,GroupsEnum.SD,Adrian-Dragoş BENEA,Benea,+,GroupsEnum.SD
+195,B9-0233/2019 - Am 3,124867,GroupsEnum.SD,Brando BENIFEI,Benifei,+,GroupsEnum.SD
+196,B9-0233/2019 - Am 3,23868,GroupsEnum.SD,Monika BEŇOVÁ,Beňová,+,GroupsEnum.SD
+197,B9-0233/2019 - Am 3,197396,GroupsEnum.SD,Erik BERGKVIST,Bergkvist,+,GroupsEnum.SD
+198,B9-0233/2019 - Am 3,197498,GroupsEnum.SD,Robert BIEDROŃ,Biedroń,+,GroupsEnum.SD
+199,B9-0233/2019 - Am 3,197435,GroupsEnum.SD,Gabriele BISCHOFF,Bischoff,+,GroupsEnum.SD
+200,B9-0233/2019 - Am 3,96681,GroupsEnum.SD,Vilija BLINKEVIČIŪTĖ,Blinkevičiūtė,+,GroupsEnum.SD
+201,B9-0233/2019 - Am 3,124814,GroupsEnum.SD,Simona BONAFÈ,Bonafè,+,GroupsEnum.SD
+202,B9-0233/2019 - Am 3,112748,GroupsEnum.SD,Biljana BORZAN,Borzan,+,GroupsEnum.SD
+203,B9-0233/2019 - Am 3,197446,GroupsEnum.SD,Milan BRGLEZ,Brglez,+,GroupsEnum.SD
+204,B9-0233/2019 - Am 3,4267,GroupsEnum.SD,Udo BULLMANN,Bullmann,+,GroupsEnum.SD
+205,B9-0233/2019 - Am 3,197440,GroupsEnum.SD,Delara BURKHARDT,Burkhardt,+,GroupsEnum.SD
+206,B9-0233/2019 - Am 3,197617,GroupsEnum.SD,Carlo CALENDA,Calenda,+,GroupsEnum.SD
+207,B9-0233/2019 - Am 3,199996,GroupsEnum.SD,Isabel CARVALHAIS,Carvalhais,+,GroupsEnum.SD
+208,B9-0233/2019 - Am 3,197641,GroupsEnum.SD,Sara CERDAS,Cerdas,+,GroupsEnum.SD
+209,B9-0233/2019 - Am 3,197782,GroupsEnum.SD,Mohammed CHAHIM,Chahim,+,GroupsEnum.SD
+210,B9-0233/2019 - Am 3,124861,GroupsEnum.SD,Caterina CHINNICI,Chinnici,+,GroupsEnum.SD
+211,B9-0233/2019 - Am 3,197507,GroupsEnum.SD,Włodzimierz CIMOSZEWICZ,Cimoszewicz,+,GroupsEnum.SD
+212,B9-0233/2019 - Am 3,197657,GroupsEnum.SD,Tudor CIUHODARU,Ciuhodaru,+,GroupsEnum.SD
+213,B9-0233/2019 - Am 3,197761,GroupsEnum.SD,Miroslav ČÍŽ,Číž,+,GroupsEnum.SD
+214,B9-0233/2019 - Am 3,2309,GroupsEnum.SD,Richard CORBETT,Corbett,+,GroupsEnum.SD
+215,B9-0233/2019 - Am 3,96880,GroupsEnum.SD,Andrea COZZOLINO,Cozzolino,+,GroupsEnum.SD
+216,B9-0233/2019 - Am 3,197394,GroupsEnum.SD,Josianne CUTAJAR,Cutajar,+,GroupsEnum.SD
+217,B9-0233/2019 - Am 3,124970,GroupsEnum.SD,Miriam DALLI,Dalli,+,GroupsEnum.SD
+218,B9-0233/2019 - Am 3,124952,GroupsEnum.SD,Seb DANCE,Dance,+,GroupsEnum.SD
+219,B9-0233/2019 - Am 3,38542,GroupsEnum.SD,Johan DANIELSSON,Danielsson,+,GroupsEnum.SD
+220,B9-0233/2019 - Am 3,124821,GroupsEnum.SD,Nicola DANTI,Danti,+,GroupsEnum.SD
+221,B9-0233/2019 - Am 3,197579,GroupsEnum.SD,Klára DOBREV,Dobrev,+,GroupsEnum.SD
+222,B9-0233/2019 - Am 3,198329,GroupsEnum.SD,Estrella DURÁ FERRANDIS,Durá Ferrandis,+,GroupsEnum.SD
+223,B9-0233/2019 - Am 3,96842,GroupsEnum.SD,Ismail ERTUG,Ertug,+,GroupsEnum.SD
+224,B9-0233/2019 - Am 3,96911,GroupsEnum.SD,Tanja FAJON,Fajon,+,GroupsEnum.SD
+225,B9-0233/2019 - Am 3,125046,GroupsEnum.SD,Jonás FERNÁNDEZ,Fernández,+,GroupsEnum.SD
+226,B9-0233/2019 - Am 3,192634,GroupsEnum.SD,Giuseppe FERRANDINO,Ferrandino,+,GroupsEnum.SD
+227,B9-0233/2019 - Am 3,197391,GroupsEnum.SD,Heléne FRITZON,Fritzon,+,GroupsEnum.SD
+228,B9-0233/2019 - Am 3,101585,GroupsEnum.SD,Niels FUGLSANG,Fuglsang,+,GroupsEnum.SD
+229,B9-0233/2019 - Am 3,197702,GroupsEnum.SD,Lina GÁLVEZ MUÑOZ,Gálvez Muñoz,+,GroupsEnum.SD
+230,B9-0233/2019 - Am 3,197717,GroupsEnum.SD,Ibán GARCÍA DEL BLANCO,García Del Blanco,+,GroupsEnum.SD
+231,B9-0233/2019 - Am 3,197742,GroupsEnum.SD,Isabel GARCÍA MUÑOZ,García Muñoz,+,GroupsEnum.SD
+232,B9-0233/2019 - Am 3,28298,GroupsEnum.SD,Iratxe GARCÍA PÉREZ,García Pérez,+,GroupsEnum.SD
+233,B9-0233/2019 - Am 3,96991,GroupsEnum.SD,Eider GARDIAZABAL RUBIAL,Gardiazabal Rubial,+,GroupsEnum.SD
+234,B9-0233/2019 - Am 3,1913,GroupsEnum.SD,Evelyne GEBHARDT,Gebhardt,+,GroupsEnum.SD
+235,B9-0233/2019 - Am 3,96833,GroupsEnum.SD,Jens GEIER,Geier,+,GroupsEnum.SD
+236,B9-0233/2019 - Am 3,4533,GroupsEnum.SD,Neena GILL,Gill Neena,+,GroupsEnum.SD
+237,B9-0233/2019 - Am 3,197694,GroupsEnum.SD,Raphaël GLUCKSMANN,Glucksmann,+,GroupsEnum.SD
+238,B9-0233/2019 - Am 3,197718,GroupsEnum.SD,Nicolás GONZÁLEZ CASARES,González Casares,+,GroupsEnum.SD
+239,B9-0233/2019 - Am 3,124785,GroupsEnum.SD,Maria GRAPINI,Grapini,+,GroupsEnum.SD
+240,B9-0233/2019 - Am 3,124961,GroupsEnum.SD,Theresa GRIFFIN,Griffin,+,GroupsEnum.SD
+241,B9-0233/2019 - Am 3,197618,GroupsEnum.SD,Elisabetta GUALMINI,Gualmini,+,GroupsEnum.SD
+242,B9-0233/2019 - Am 3,96952,GroupsEnum.SD,Sylvie GUILLAUME,Guillaume,+,GroupsEnum.SD
+243,B9-0233/2019 - Am 3,124991,GroupsEnum.SD,Jytte GUTELAND,Guteland,+,GroupsEnum.SD
+244,B9-0233/2019 - Am 3,34578,GroupsEnum.SD,Robert HAJŠEL,Hajšel,+,GroupsEnum.SD
+245,B9-0233/2019 - Am 3,197682,GroupsEnum.SD,Hannes HEIDE,Heide,+,GroupsEnum.SD
+246,B9-0233/2019 - Am 3,122978,GroupsEnum.SD,Alicia HOMS GINEL,Homs Ginel,+,GroupsEnum.SD
+247,B9-0233/2019 - Am 3,188636,GroupsEnum.SD,John HOWARTH,Howarth,+,GroupsEnum.SD
+248,B9-0233/2019 - Am 3,197846,GroupsEnum.SD,Ivo HRISTOV,Hristov,+,GroupsEnum.SD
+249,B9-0233/2019 - Am 3,197392,GroupsEnum.SD,Evin INCIR,Incir,+,GroupsEnum.SD
+250,B9-0233/2019 - Am 3,197758,GroupsEnum.SD,Jackie JONES,Jones,+,GroupsEnum.SD
+251,B9-0233/2019 - Am 3,125021,GroupsEnum.SD,Agnes JONGERIUS,Jongerius,+,GroupsEnum.SD
+252,B9-0233/2019 - Am 3,125109,GroupsEnum.SD,Eva KAILI,Kaili,+,GroupsEnum.SD
+253,B9-0233/2019 - Am 3,197491,GroupsEnum.SD,Marina KALJURAND,Kaljurand,+,GroupsEnum.SD
+254,B9-0233/2019 - Am 3,96837,GroupsEnum.SD,Petra KAMMEREVERT,Kammerevert,+,GroupsEnum.SD
+255,B9-0233/2019 - Am 3,124953,GroupsEnum.SD,Jude KIRTON-DARLING,Kirton-Darling,+,GroupsEnum.SD
+256,B9-0233/2019 - Am 3,197523,GroupsEnum.SD,Łukasz KOHUT,Kohut,+,GroupsEnum.SD
+257,B9-0233/2019 - Am 3,124822,GroupsEnum.SD,Dietmar KÖSTER,Köster,+,GroupsEnum.SD
+258,B9-0233/2019 - Am 3,1854,GroupsEnum.SD,Constanze KREHL,Krehl,+,GroupsEnum.SD
+259,B9-0233/2019 - Am 3,124735,GroupsEnum.SD,Miapetra KUMPULA-NATRI,Kumpula-Natri,+,GroupsEnum.SD
+260,B9-0233/2019 - Am 3,1909,GroupsEnum.SD,Bernd LANGE,Lange,+,GroupsEnum.SD
+261,B9-0233/2019 - Am 3,197698,GroupsEnum.SD,Pierre LARROUTUROU,Larrouturou,+,GroupsEnum.SD
+262,B9-0233/2019 - Am 3,197635,GroupsEnum.SD,Maria-Manuel LEITÃO-MARQUES,Leitão Marques,+,GroupsEnum.SD
+263,B9-0233/2019 - Am 3,23768,GroupsEnum.SD,Bogusław LIBERADZKI,Liberadzki,+,GroupsEnum.SD
+264,B9-0233/2019 - Am 3,125042,GroupsEnum.SD,Javi LÓPEZ,López,+,GroupsEnum.SD
+265,B9-0233/2019 - Am 3,96812,GroupsEnum.SD,Juan Fernando LÓPEZ AGUILAR,López Aguilar,+,GroupsEnum.SD
+266,B9-0233/2019 - Am 3,197721,GroupsEnum.SD,César LUENA,Luena,+,GroupsEnum.SD
+267,B9-0233/2019 - Am 3,197719,GroupsEnum.SD,Cristina MAESTRE MARTÍN DE ALMAGRO,Maestre Martín De Almagro,+,GroupsEnum.SD
+268,B9-0233/2019 - Am 3,197592,GroupsEnum.SD,Pierfrancesco MAJORINO,Majorino,+,GroupsEnum.SD
+269,B9-0233/2019 - Am 3,197735,GroupsEnum.SD,Adriana MALDONADO LÓPEZ,Maldonado López,+,GroupsEnum.SD
+270,B9-0233/2019 - Am 3,197653,GroupsEnum.SD,Claudiu MANDA,Manda,+,GroupsEnum.SD
+271,B9-0233/2019 - Am 3,197638,GroupsEnum.SD,Margarida MARQUES,Marques Margarida,+,GroupsEnum.SD
+272,B9-0233/2019 - Am 3,197634,GroupsEnum.SD,Pedro MARQUES,Marques Pedro,+,GroupsEnum.SD
+273,B9-0233/2019 - Am 3,197441,GroupsEnum.SD,Predrag Fred MATIĆ,Matić,+,GroupsEnum.SD
+274,B9-0233/2019 - Am 3,124691,GroupsEnum.SD,Costas MAVRIDES,Mavrides,+,GroupsEnum.SD
+275,B9-0233/2019 - Am 3,197497,GroupsEnum.SD,Sven MIKSER,Mikser,+,GroupsEnum.SD
+276,B9-0233/2019 - Am 3,197540,GroupsEnum.SD,Leszek MILLER,Miller,+,GroupsEnum.SD
+277,B9-0233/2019 - Am 3,124722,GroupsEnum.SD,Csaba MOLNÁR,Molnár,+,GroupsEnum.SD
+278,B9-0233/2019 - Am 3,4519,GroupsEnum.SD,Claude MORAES,Moraes,+,GroupsEnum.SD
+279,B9-0233/2019 - Am 3,28347,GroupsEnum.SD,Javier MORENO SÁNCHEZ,Moreno Sánchez,+,GroupsEnum.SD
+280,B9-0233/2019 - Am 3,124799,GroupsEnum.SD,Alessandra MORETTI,Moretti,+,GroupsEnum.SD
+281,B9-0233/2019 - Am 3,96844,GroupsEnum.SD,Norbert NEUSER,Neuser,+,GroupsEnum.SD
+282,B9-0233/2019 - Am 3,124784,GroupsEnum.SD,Dan NICA,Nica,+,GroupsEnum.SD
+283,B9-0233/2019 - Am 3,124836,GroupsEnum.SD,Maria NOICHL,Noichl,+,GroupsEnum.SD
+284,B9-0233/2019 - Am 3,197838,GroupsEnum.SD,Juozas OLEKAS,Olekas,+,GroupsEnum.SD
+285,B9-0233/2019 - Am 3,190099,GroupsEnum.SD,Rory PALMER,Palmer,+,GroupsEnum.SD
+286,B9-0233/2019 - Am 3,124692,GroupsEnum.SD,Demetris PAPADAKIS,Papadakis Demetris,+,GroupsEnum.SD
+287,B9-0233/2019 - Am 3,197845,GroupsEnum.SD,Tsvetelina PENKOVA,Penkova,+,GroupsEnum.SD
+288,B9-0233/2019 - Am 3,124846,GroupsEnum.SD,Pina PICIERNO,Picierno,+,GroupsEnum.SD
+289,B9-0233/2019 - Am 3,112744,GroupsEnum.SD,Tonino PICULA,Picula,+,GroupsEnum.SD
+290,B9-0233/2019 - Am 3,37229,GroupsEnum.SD,Kati PIRI,Piri,+,GroupsEnum.SD
+291,B9-0233/2019 - Am 3,197590,GroupsEnum.SD,Giuliano PISAPIA,Pisapia,+,GroupsEnum.SD
+292,B9-0233/2019 - Am 3,197732,GroupsEnum.SD,Manuel PIZARRO,Pizarro,+,GroupsEnum.SD
+293,B9-0233/2019 - Am 3,38595,GroupsEnum.SD,Rovana PLUMB,Plumb,+,GroupsEnum.SD
+294,B9-0233/2019 - Am 3,96998,GroupsEnum.SD,Evelyn REGNER,Regner,+,GroupsEnum.SD
+295,B9-0233/2019 - Am 3,197801,GroupsEnum.SD,Franco ROBERTI,Roberti,+,GroupsEnum.SD
+296,B9-0233/2019 - Am 3,125043,GroupsEnum.SD,Inma RODRÍGUEZ-PIÑERO,Rodríguez-Piñero,+,GroupsEnum.SD
+297,B9-0233/2019 - Am 3,197584,GroupsEnum.SD,Sándor RÓNAI,Rónai,+,GroupsEnum.SD
+298,B9-0233/2019 - Am 3,127096,GroupsEnum.SD,Domènec RUIZ DEVESA,Ruiz Devesa,+,GroupsEnum.SD
+299,B9-0233/2019 - Am 3,197722,GroupsEnum.SD,Nacho SÁNCHEZ AMOR,Sánchez Amor,+,GroupsEnum.SD
+300,B9-0233/2019 - Am 3,124781,GroupsEnum.SD,Alfred SANT,Sant,+,GroupsEnum.SD
+301,B9-0233/2019 - Am 3,197650,GroupsEnum.SD,Isabel SANTOS,Santos,+,GroupsEnum.SD
+302,B9-0233/2019 - Am 3,37312,GroupsEnum.SD,Christel SCHALDEMOSE,Schaldemose,+,GroupsEnum.SD
+303,B9-0233/2019 - Am 3,197670,GroupsEnum.SD,Andreas SCHIEDER,Schieder,+,GroupsEnum.SD
+304,B9-0233/2019 - Am 3,124837,GroupsEnum.SD,Joachim SCHUSTER,Schuster,+,GroupsEnum.SD
+305,B9-0233/2019 - Am 3,197677,GroupsEnum.SD,Günther SIDL,Sidl,+,GroupsEnum.SD
+306,B9-0233/2019 - Am 3,124747,GroupsEnum.SD,Pedro SILVA PEREIRA,Silva Pereira,+,GroupsEnum.SD
+307,B9-0233/2019 - Am 3,96932,GroupsEnum.SD,Birgit SIPPEL,Sippel,+,GroupsEnum.SD
+308,B9-0233/2019 - Am 3,197791,GroupsEnum.SD,Massimiliano SMERIGLIO,Smeriglio,+,GroupsEnum.SD
+309,B9-0233/2019 - Am 3,197550,GroupsEnum.SD,Sylwia SPUREK,Spurek,+,GroupsEnum.SD
+310,B9-0233/2019 - Am 3,124852,GroupsEnum.SD,Sergei STANISHEV,Stanishev,+,GroupsEnum.SD
+311,B9-0233/2019 - Am 3,29579,GroupsEnum.SD,Marc TARABELLA,Tarabella,+,GroupsEnum.SD
+312,B9-0233/2019 - Am 3,197756,GroupsEnum.SD,Vera TAX,Tax,+,GroupsEnum.SD
+313,B9-0233/2019 - Am 3,197655,GroupsEnum.SD,Cristian TERHEŞ,Terheş,+,GroupsEnum.SD
+314,B9-0233/2019 - Am 3,197591,GroupsEnum.SD,Irene TINAGLI,Tinagli,+,GroupsEnum.SD
+315,B9-0233/2019 - Am 3,198183,GroupsEnum.SD,Mihai TUDOSE,Tudose,+,GroupsEnum.SD
+316,B9-0233/2019 - Am 3,124705,GroupsEnum.SD,István UJHELYI,Ujhelyi,+,GroupsEnum.SD
+317,B9-0233/2019 - Am 3,197810,GroupsEnum.SD,Nils UŠAKOVS,Ušakovs,+,GroupsEnum.SD
+318,B9-0233/2019 - Am 3,5729,GroupsEnum.SD,Kathleen VAN BREMPT,Van Brempt,+,GroupsEnum.SD
+319,B9-0233/2019 - Am 3,199941,GroupsEnum.SD,Marianne VIND,Vind,+,GroupsEnum.SD
+320,B9-0233/2019 - Am 3,197844,GroupsEnum.SD,Petar VITANOV,Vitanov,+,GroupsEnum.SD
+321,B9-0233/2019 - Am 3,197678,GroupsEnum.SD,Bettina VOLLATH,Vollath,+,GroupsEnum.SD
+322,B9-0233/2019 - Am 3,124963,GroupsEnum.SD,Julie WARD,Ward,+,GroupsEnum.SD
+323,B9-0233/2019 - Am 3,185619,GroupsEnum.SD,Tiemo WÖLKEN,Wölken,+,GroupsEnum.SD
+324,B9-0233/2019 - Am 3,5392,GroupsEnum.SD,Lara WOLTERS,Wolters,+,GroupsEnum.SD
+325,B9-0233/2019 - Am 3,197842,GroupsEnum.SD,Elena YONCHEVA,Yoncheva,+,GroupsEnum.SD
+326,B9-0233/2019 - Am 3,124739,GroupsEnum.SD,Carlos ZORRINHO,Zorrinho,+,GroupsEnum.SD
+327,B9-0233/2019 - Am 3,96750,GroupsEnum.Verts,François ALFONSI,Alfonsi,+,GroupsEnum.Verts
+328,B9-0233/2019 - Am 3,197644,GroupsEnum.Verts,Christian ALLARD,Allard,+,GroupsEnum.Verts
+329,B9-0233/2019 - Am 3,197448,GroupsEnum.Verts,Rasmus ANDRESEN,Andresen,+,GroupsEnum.Verts
+330,B9-0233/2019 - Am 3,28161,GroupsEnum.Verts,Margrete AUKEN,Auken,+,GroupsEnum.Verts
+331,B9-0233/2019 - Am 3,197512,GroupsEnum.Verts,Benoît BITEAU,Biteau,+,GroupsEnum.Verts
+332,B9-0233/2019 - Am 3,197449,GroupsEnum.Verts,Michael BLOSS,Bloss,+,GroupsEnum.Verts
+333,B9-0233/2019 - Am 3,197431,GroupsEnum.Verts,Patrick BREYER,Breyer,+,GroupsEnum.Verts
+334,B9-0233/2019 - Am 3,197470,GroupsEnum.Verts,Saskia BRICMONT,Bricmont,+,GroupsEnum.Verts
+335,B9-0233/2019 - Am 3,124818,GroupsEnum.Verts,Klaus BUCHNER,Buchner,+,GroupsEnum.Verts
+336,B9-0233/2019 - Am 3,96739,GroupsEnum.Verts,Reinhard BÜTIKOFER,Bütikofer,+,GroupsEnum.Verts
+337,B9-0233/2019 - Am 3,86793,GroupsEnum.Verts,Anna CAVAZZINI,Cavazzini,+,GroupsEnum.Verts
+338,B9-0233/2019 - Am 3,197714,GroupsEnum.Verts,Ellie CHOWNS,Chowns,+,GroupsEnum.Verts
+339,B9-0233/2019 - Am 3,197503,GroupsEnum.Verts,David CORMAND,Cormand,+,GroupsEnum.Verts
+340,B9-0233/2019 - Am 3,197654,GroupsEnum.Verts,Ciarán CUFFE,Cuffe,+,GroupsEnum.Verts
+341,B9-0233/2019 - Am 3,197531,GroupsEnum.Verts,Gwendoline DELBOS-CORFIELD,Delbos-Corfield,+,GroupsEnum.Verts
+342,B9-0233/2019 - Am 3,96868,GroupsEnum.Verts,Karima DELLI,Delli,+,GroupsEnum.Verts
+343,B9-0233/2019 - Am 3,197453,GroupsEnum.Verts,Anna DEPARNAY-GRUNENBERG,Deparnay-Grunenberg,+,GroupsEnum.Verts
+344,B9-0233/2019 - Am 3,197471,GroupsEnum.Verts,Petra DE SUTTER,De Sutter,+,GroupsEnum.Verts
+345,B9-0233/2019 - Am 3,197613,GroupsEnum.Verts,Gina DOWDING,Dowding,+,GroupsEnum.Verts
+346,B9-0233/2019 - Am 3,96725,GroupsEnum.Verts,Bas EICKHOUT,Eickhout,+,GroupsEnum.Verts
+347,B9-0233/2019 - Am 3,4550,GroupsEnum.Verts,Jill EVANS,Evans,+,GroupsEnum.Verts
+348,B9-0233/2019 - Am 3,193273,GroupsEnum.Verts,Romeo FRANZ,Franz,+,GroupsEnum.Verts
+349,B9-0233/2019 - Am 3,106936,GroupsEnum.Verts,Daniel FREUND,Freund,+,GroupsEnum.Verts
+350,B9-0233/2019 - Am 3,183916,GroupsEnum.Verts,Alexandra GEESE,Geese,+,GroupsEnum.Verts
+351,B9-0233/2019 - Am 3,96730,GroupsEnum.Verts,Sven GIEGOLD,Giegold,+,GroupsEnum.Verts
+352,B9-0233/2019 - Am 3,197549,GroupsEnum.Verts,Markéta GREGOROVÁ,Gregorová,+,GroupsEnum.Verts
+353,B9-0233/2019 - Am 3,197645,GroupsEnum.Verts,Francisco GUERREIRO,Guerreiro,+,GroupsEnum.Verts
+354,B9-0233/2019 - Am 3,197457,GroupsEnum.Verts,Henrike HAHN,Hahn Henrike,+,GroupsEnum.Verts
+355,B9-0233/2019 - Am 3,96752,GroupsEnum.Verts,Martin HÄUSLING,Häusling,+,GroupsEnum.Verts
+356,B9-0233/2019 - Am 3,2054,GroupsEnum.Verts,Heidi HAUTALA,Hautala,+,GroupsEnum.Verts
+357,B9-0233/2019 - Am 3,197459,GroupsEnum.Verts,Pierrette HERZBERGER-FOFANA,Herzberger-Fofana,+,GroupsEnum.Verts
+358,B9-0233/2019 - Am 3,197398,GroupsEnum.Verts,Pär HOLMGREN,Holmgren,+,GroupsEnum.Verts
+359,B9-0233/2019 - Am 3,96740,GroupsEnum.Verts,Yannick JADOT,Jadot,+,GroupsEnum.Verts
+360,B9-0233/2019 - Am 3,197837,GroupsEnum.Verts,Stasys JAKELIŪNAS,Jakeliūnas,+,GroupsEnum.Verts
+361,B9-0233/2019 - Am 3,96734,GroupsEnum.Verts,Ska KELLER,Keller Ska,+,GroupsEnum.Verts
+362,B9-0233/2019 - Am 3,197546,GroupsEnum.Verts,Marcel KOLAJA,Kolaja,+,GroupsEnum.Verts
+363,B9-0233/2019 - Am 3,197395,GroupsEnum.Verts,Alice KUHNKE,Kuhnke,+,GroupsEnum.Verts
+364,B9-0233/2019 - Am 3,96648,GroupsEnum.Verts,Philippe LAMBERTS,Lamberts,+,GroupsEnum.Verts
+365,B9-0233/2019 - Am 3,197461,GroupsEnum.Verts,Katrin LANGENSIEPEN,Langensiepen,+,GroupsEnum.Verts
+366,B9-0233/2019 - Am 3,30490,GroupsEnum.Verts,Aileen McLEOD,McLeod,+,GroupsEnum.Verts
+367,B9-0233/2019 - Am 3,197812,GroupsEnum.Verts,Magid MAGID,Magid,+,GroupsEnum.Verts
+368,B9-0233/2019 - Am 3,197462,GroupsEnum.Verts,Erik MARQUARDT,Marquardt,+,GroupsEnum.Verts
+369,B9-0233/2019 - Am 3,193292,GroupsEnum.Verts,Tilly METZ,Metz,+,GroupsEnum.Verts
+370,B9-0233/2019 - Am 3,197464,GroupsEnum.Verts,Hannah NEUMANN,Neumann,+,GroupsEnum.Verts
+371,B9-0233/2019 - Am 3,197465,GroupsEnum.Verts,Niklas NIENASS,Nienaß,+,GroupsEnum.Verts
+372,B9-0233/2019 - Am 3,197802,GroupsEnum.Verts,Ville NIINISTÖ,Niinistö,+,GroupsEnum.Verts
+373,B9-0233/2019 - Am 3,197889,GroupsEnum.Verts,Grace O'SULLIVAN,O'Sullivan,+,GroupsEnum.Verts
+374,B9-0233/2019 - Am 3,197466,GroupsEnum.Verts,Jutta PAULUS,Paulus,+,GroupsEnum.Verts
+375,B9-0233/2019 - Am 3,197539,GroupsEnum.Verts,Mikuláš PEKSA,Peksa,+,GroupsEnum.Verts
+376,B9-0233/2019 - Am 3,197573,GroupsEnum.Verts,Kira Marie PETER-HANSEN,Peter-Hansen,+,GroupsEnum.Verts
+377,B9-0233/2019 - Am 3,197710,GroupsEnum.Verts,Alexandra Louise Rosenfield PHILLIPS,Phillips Alexandra Louise Rosenfield,+,GroupsEnum.Verts
+378,B9-0233/2019 - Am 3,103381,GroupsEnum.Verts,Terry REINTKE,Reintke,+,GroupsEnum.Verts
+379,B9-0233/2019 - Am 3,197832,GroupsEnum.Verts,Diana RIBA I GINER,Riba i Giner,+,GroupsEnum.Verts
+380,B9-0233/2019 - Am 3,96743,GroupsEnum.Verts,Michèle RIVASI,Rivasi,+,GroupsEnum.Verts
+381,B9-0233/2019 - Am 3,197506,GroupsEnum.Verts,Caroline ROOSE,Roose,+,GroupsEnum.Verts
+382,B9-0233/2019 - Am 3,125214,GroupsEnum.Verts,Bronis ROPĖ,Ropė,+,GroupsEnum.Verts
+383,B9-0233/2019 - Am 3,197602,GroupsEnum.Verts,Catherine ROWETT,Rowett,+,GroupsEnum.Verts
+384,B9-0233/2019 - Am 3,197500,GroupsEnum.Verts,Mounir SATOURI,Satouri,+,GroupsEnum.Verts
+385,B9-0233/2019 - Am 3,124942,GroupsEnum.Verts,Molly SCOTT CATO,Scott Cato,+,GroupsEnum.Verts
+386,B9-0233/2019 - Am 3,197423,GroupsEnum.Verts,Nico SEMSROTT,Semsrott,+,GroupsEnum.Verts
+387,B9-0233/2019 - Am 3,197772,GroupsEnum.Verts,Tineke STRIK,Strik,+,GroupsEnum.Verts
+388,B9-0233/2019 - Am 3,97236,GroupsEnum.Verts,Marie TOUSSAINT,Toussaint,+,GroupsEnum.Verts
+389,B9-0233/2019 - Am 3,124972,GroupsEnum.Verts,Ernest URTASUN,Urtasun,+,GroupsEnum.Verts
+390,B9-0233/2019 - Am 3,124934,GroupsEnum.Verts,Monika VANA,Vana,+,GroupsEnum.Verts
+391,B9-0233/2019 - Am 3,197870,GroupsEnum.Verts,Kim VAN SPARRENTAK,Van Sparrentak,+,GroupsEnum.Verts
+392,B9-0233/2019 - Am 3,197451,GroupsEnum.Verts,Viola VON CRAMON-TAUBADEL,Von Cramon-Taubadel,+,GroupsEnum.Verts
+393,B9-0233/2019 - Am 3,197675,GroupsEnum.Verts,Sarah WIENER,Wiener,+,GroupsEnum.Verts
+394,B9-0233/2019 - Am 3,197511,GroupsEnum.Verts,Salima YENBOU,Yenbou,+,GroupsEnum.Verts
+395,B9-0233/2019 - Am 3,28619,GroupsEnum.Verts,Tatjana ŽDANOKA,Ždanoka,+,GroupsEnum.Verts
+396,B9-0233/2019 - Am 3,198096,GroupsEnum.ECR,Mazaly AGUILAR,Aguilar,-,GroupsEnum.ECR
+397,B9-0233/2019 - Am 3,23788,GroupsEnum.ECR,Adam BIELAN,Bielan,-,GroupsEnum.ECR
+398,B9-0233/2019 - Am 3,197501,GroupsEnum.ECR,Joachim Stanisław BRUDZIŃSKI,Brudziński,-,GroupsEnum.ECR
+399,B9-0233/2019 - Am 3,197829,GroupsEnum.ECR,Jorge BUXADÉ VILLALBA,Buxadé Villalba,-,GroupsEnum.ECR
+400,B9-0233/2019 - Am 3,28372,GroupsEnum.ECR,Ryszard CZARNECKI,Czarnecki,-,GroupsEnum.ECR
+401,B9-0233/2019 - Am 3,197766,GroupsEnum.ECR,Lucia ĎURIŠ NICHOLSONOVÁ,Ďuriš Nicholsonová,-,GroupsEnum.ECR
+402,B9-0233/2019 - Am 3,124873,GroupsEnum.ECR,Angel DZHAMBAZKI,Dzhambazki,-,GroupsEnum.ECR
+403,B9-0233/2019 - Am 3,97133,GroupsEnum.ECR,Derk Jan EPPINK,Eppink,-,GroupsEnum.ECR
+404,B9-0233/2019 - Am 3,96810,GroupsEnum.ECR,Carlo FIDANZA,Fidanza,-,GroupsEnum.ECR
+405,B9-0233/2019 - Am 3,197607,GroupsEnum.ECR,Pietro FIOCCHI,Fiocchi,-,GroupsEnum.ECR
+406,B9-0233/2019 - Am 3,4465,GroupsEnum.ECR,Raffaele FITTO,Fitto,-,GroupsEnum.ECR
+407,B9-0233/2019 - Am 3,28353,GroupsEnum.ECR,Anna FOTYGA,Fotyga,-,GroupsEnum.ECR
+408,B9-0233/2019 - Am 3,4555,GroupsEnum.ECR,Daniel HANNAN,Hannan,-,GroupsEnum.ECR
+409,B9-0233/2019 - Am 3,197516,GroupsEnum.ECR,Patryk JAKI,Jaki,-,GroupsEnum.ECR
+410,B9-0233/2019 - Am 3,197518,GroupsEnum.ECR,Krzysztof JURGIEL,Jurgiel,-,GroupsEnum.ECR
+411,B9-0233/2019 - Am 3,197767,GroupsEnum.ECR,Eugen JURZYCA,Jurzyca,-,GroupsEnum.ECR
+412,B9-0233/2019 - Am 3,124887,GroupsEnum.ECR,Karol KARSKI,Karski,-,GroupsEnum.ECR
+413,B9-0233/2019 - Am 3,197519,GroupsEnum.ECR,Beata KEMPA,Kempa,-,GroupsEnum.ECR
+414,B9-0233/2019 - Am 3,197520,GroupsEnum.ECR,Izabela-Helena KLOC,Kloc,-,GroupsEnum.ECR
+415,B9-0233/2019 - Am 3,197530,GroupsEnum.ECR,Joanna KOPCIŃSKA,Kopcińska,-,GroupsEnum.ECR
+416,B9-0233/2019 - Am 3,124891,GroupsEnum.ECR,Zdzisław KRASNODĘBSKI,Krasnodębski,-,GroupsEnum.ECR
+417,B9-0233/2019 - Am 3,197532,GroupsEnum.ECR,Elżbieta KRUK,Kruk,-,GroupsEnum.ECR
+418,B9-0233/2019 - Am 3,28389,GroupsEnum.ECR,Zbigniew KUŹMIUK,Kuźmiuk,-,GroupsEnum.ECR
+419,B9-0233/2019 - Am 3,96796,GroupsEnum.ECR,Ryszard Antoni LEGUTKO,Legutko,-,GroupsEnum.ECR
+420,B9-0233/2019 - Am 3,197538,GroupsEnum.ECR,Beata MAZUREK,Mazurek,-,GroupsEnum.ECR
+421,B9-0233/2019 - Am 3,189391,GroupsEnum.ECR,Baroness Nosheena MOBARIK,Mobarik,-,GroupsEnum.ECR
+422,B9-0233/2019 - Am 3,197541,GroupsEnum.ECR,Andżelika Anna MOŻDŻANOWSKA,Możdżanowska,-,GroupsEnum.ECR
+423,B9-0233/2019 - Am 3,96801,GroupsEnum.ECR,Tomasz Piotr PORĘBA,Poręba,-,GroupsEnum.ECR
+424,B9-0233/2019 - Am 3,197820,GroupsEnum.ECR,Nicola PROCACCINI,Procaccini,-,GroupsEnum.ECR
+425,B9-0233/2019 - Am 3,197544,GroupsEnum.ECR,Elżbieta RAFALSKA,Rafalska,-,GroupsEnum.ECR
+426,B9-0233/2019 - Am 3,197776,GroupsEnum.ECR,Rob ROOKEN,Rooken,-,GroupsEnum.ECR
+427,B9-0233/2019 - Am 3,197709,GroupsEnum.ECR,Robert ROOS,Roos,-,GroupsEnum.ECR
+428,B9-0233/2019 - Am 3,197773,GroupsEnum.ECR,Bert-Jan RUISSEN,Ruissen,-,GroupsEnum.ECR
+429,B9-0233/2019 - Am 3,197545,GroupsEnum.ECR,Bogdan RZOŃCA,Rzońca,-,GroupsEnum.ECR
+430,B9-0233/2019 - Am 3,28297,GroupsEnum.ECR,Jacek SARYUSZ-WOLSKI,Saryusz-Wolski,-,GroupsEnum.ECR
+431,B9-0233/2019 - Am 3,197849,GroupsEnum.ECR,Andrey SLABAKOV,Slabakov,-,GroupsEnum.ECR
+432,B9-0233/2019 - Am 3,197825,GroupsEnum.ECR,Raffaele STANCANELLI,Stancanelli,-,GroupsEnum.ECR
+433,B9-0233/2019 - Am 3,197553,GroupsEnum.ECR,Beata SZYDŁO,Szydło,-,GroupsEnum.ECR
+434,B9-0233/2019 - Am 3,197831,GroupsEnum.ECR,Hermann TERTSCH,Tertsch,-,GroupsEnum.ECR
+435,B9-0233/2019 - Am 3,197559,GroupsEnum.ECR,Grzegorz TOBISZOWSKI,Tobiszowski,-,GroupsEnum.ECR
+436,B9-0233/2019 - Am 3,197672,GroupsEnum.ECR,Eugen TOMAC,Tomaševski,-,GroupsEnum.ECR
+437,B9-0233/2019 - Am 3,119431,GroupsEnum.ECR,Ruža TOMAŠIĆ,Tomašić,-,GroupsEnum.ECR
+438,B9-0233/2019 - Am 3,96713,GroupsEnum.ECR,Evžen TOŠENOVSKÝ,Tošenovský,-,GroupsEnum.ECR
+439,B9-0233/2019 - Am 3,197537,GroupsEnum.ECR,Alexandr VONDRA,Vondra,-,GroupsEnum.ECR
+440,B9-0233/2019 - Am 3,197552,GroupsEnum.ECR,Veronika VRECIONOVÁ,Vrecionová,-,GroupsEnum.ECR
+441,B9-0233/2019 - Am 3,197566,GroupsEnum.ECR,Witold Jan WASZCZYKOWSKI,Waszczykowski,-,GroupsEnum.ECR
+442,B9-0233/2019 - Am 3,123562,GroupsEnum.ECR,Charlie WEIMERS,Weimers,-,GroupsEnum.ECR
+443,B9-0233/2019 - Am 3,124877,GroupsEnum.ECR,Jadwiga WIŚNIEWSKA,Wiśniewska,-,GroupsEnum.ECR
+444,B9-0233/2019 - Am 3,23712,GroupsEnum.ECR,Jan ZAHRADIL,Zahradil,-,GroupsEnum.ECR
+445,B9-0233/2019 - Am 3,197572,GroupsEnum.ECR,Anna ZALEWSKA,Zalewska,-,GroupsEnum.ECR
+446,B9-0233/2019 - Am 3,124884,GroupsEnum.ECR,Kosma ZŁOTOWSKI,Złotowski,-,GroupsEnum.ECR
+447,B9-0233/2019 - Am 3,197826,GroupsEnum.ID,Matteo ADINOLFI,Adinolfi Matteo,-,GroupsEnum.ID
+448,B9-0233/2019 - Am 3,197475,GroupsEnum.ID,Christine ANDERSON,Anderson Christine,-,GroupsEnum.ID
+449,B9-0233/2019 - Am 3,197789,GroupsEnum.ID,Simona BALDASSARRE,Baldassarre,-,GroupsEnum.ID
+450,B9-0233/2019 - Am 3,197610,GroupsEnum.ID,Alessandra BASSO,Basso,-,GroupsEnum.ID
+451,B9-0233/2019 - Am 3,132191,GroupsEnum.ID,Gunnar BECK,Beck,-,GroupsEnum.ID
+452,B9-0233/2019 - Am 3,197478,GroupsEnum.ID,Lars Patrick BERG,Berg,-,GroupsEnum.ID
+453,B9-0233/2019 - Am 3,97198,GroupsEnum.ID,Mara BIZZOTTO,Bizzotto,-,GroupsEnum.ID
+454,B9-0233/2019 - Am 3,197788,GroupsEnum.ID,Anna BONFRISCO,Bonfrisco,-,GroupsEnum.ID
+455,B9-0233/2019 - Am 3,101039,GroupsEnum.ID,Paolo BORCHIA,Borchia,-,GroupsEnum.ID
+456,B9-0233/2019 - Am 3,128483,GroupsEnum.ID,Markus BUCHHEIT,Buchheit,-,GroupsEnum.ID
+457,B9-0233/2019 - Am 3,35016,GroupsEnum.ID,Marco CAMPOMENOSI,Campomenosi,-,GroupsEnum.ID
+458,B9-0233/2019 - Am 3,197797,GroupsEnum.ID,Andrea CAROPPO,Caroppo,-,GroupsEnum.ID
+459,B9-0233/2019 - Am 3,197796,GroupsEnum.ID,Massimo CASANOVA,Casanova,-,GroupsEnum.ID
+460,B9-0233/2019 - Am 3,197786,GroupsEnum.ID,Susanna CECCARDI,Ceccardi,-,GroupsEnum.ID
+461,B9-0233/2019 - Am 3,183793,GroupsEnum.ID,Angelo CIOCCA,Ciocca,-,GroupsEnum.ID
+462,B9-0233/2019 - Am 3,197616,GroupsEnum.ID,Rosanna CONTE,Conte,-,GroupsEnum.ID
+463,B9-0233/2019 - Am 3,197608,GroupsEnum.ID,Gianantonio DA RE,Da Re,-,GroupsEnum.ID
+464,B9-0233/2019 - Am 3,197556,GroupsEnum.ID,Ivan DAVID,David,-,GroupsEnum.ID
+465,B9-0233/2019 - Am 3,197822,GroupsEnum.ID,Francesca DONATO,Donato,-,GroupsEnum.ID
+466,B9-0233/2019 - Am 3,197480,GroupsEnum.ID,Nicolaus FEST,Fest,-,GroupsEnum.ID
+467,B9-0233/2019 - Am 3,197799,GroupsEnum.ID,Valentino GRANT,Grant,-,GroupsEnum.ID
+468,B9-0233/2019 - Am 3,197481,GroupsEnum.ID,Maximilian KRAH,Krah,-,GroupsEnum.ID
+469,B9-0233/2019 - Am 3,197482,GroupsEnum.ID,Joachim KUHS,Kuhs,-,GroupsEnum.ID
+470,B9-0233/2019 - Am 3,192635,GroupsEnum.ID,Danilo Oscar LANCINI,Lancini,-,GroupsEnum.ID
+471,B9-0233/2019 - Am 3,197483,GroupsEnum.ID,Sylvia LIMMER,Limmer,-,GroupsEnum.ID
+472,B9-0233/2019 - Am 3,197611,GroupsEnum.ID,Elena LIZZI,Lizzi,-,GroupsEnum.ID
+473,B9-0233/2019 - Am 3,190518,GroupsEnum.ID,Jörg MEUTHEN,Meuthen,-,GroupsEnum.ID
+474,B9-0233/2019 - Am 3,99283,GroupsEnum.ID,Alessandro PANZA,Panza,-,GroupsEnum.ID
+475,B9-0233/2019 - Am 3,197790,GroupsEnum.ID,Luisa REGIMENTI,Regimenti,-,GroupsEnum.ID
+476,B9-0233/2019 - Am 3,197488,GroupsEnum.ID,Guido REIL,Reil,-,GroupsEnum.ID
+477,B9-0233/2019 - Am 3,197787,GroupsEnum.ID,Antonio Maria RINALDI,Rinaldi,-,GroupsEnum.ID
+478,B9-0233/2019 - Am 3,197578,GroupsEnum.ID,Silvia SARDONE,Sardone,-,GroupsEnum.ID
+479,B9-0233/2019 - Am 3,197806,GroupsEnum.ID,Annalisa TARDINO,Tardino,-,GroupsEnum.ID
+480,B9-0233/2019 - Am 3,197580,GroupsEnum.ID,Isabella TOVAGLIERI,Tovaglieri,-,GroupsEnum.ID
+481,B9-0233/2019 - Am 3,197798,GroupsEnum.ID,Lucia VUOLO,Vuolo,-,GroupsEnum.ID
+482,B9-0233/2019 - Am 3,197586,GroupsEnum.ID,Stefania ZAMBELLI,Zambelli,-,GroupsEnum.ID
+483,B9-0233/2019 - Am 3,124780,GroupsEnum.ID,Marco ZANNI,Zanni,-,GroupsEnum.ID
+484,B9-0233/2019 - Am 3,197715,GroupsEnum.NI,David BULL,Bull,-,GroupsEnum.NI
+485,B9-0233/2019 - Am 3,188733,GroupsEnum.NI,Jonathan BULLOCK,Bullock,-,GroupsEnum.NI
+486,B9-0233/2019 - Am 3,197760,GroupsEnum.NI,Martin Edward DAUBNEY,Daubney,-,GroupsEnum.NI
+487,B9-0233/2019 - Am 3,96951,GroupsEnum.NI,Diane DODDS,Dodds,-,GroupsEnum.NI
+488,B9-0233/2019 - Am 3,4525,GroupsEnum.NI,Nigel FARAGE,Farage,-,GroupsEnum.NI
+489,B9-0233/2019 - Am 3,197708,GroupsEnum.NI,Claire FOX,Fox,-,GroupsEnum.NI
+490,B9-0233/2019 - Am 3,124965,GroupsEnum.NI,Nathan GILL,Gill Nathan,-,GroupsEnum.NI
+491,B9-0233/2019 - Am 3,197601,GroupsEnum.NI,Michael HEAVER,Heaver,-,GroupsEnum.NI
+492,B9-0233/2019 - Am 3,197740,GroupsEnum.NI,Athanasios KONSTANTINOU,Konstantinou,-,GroupsEnum.NI
+493,B9-0233/2019 - Am 3,197737,GroupsEnum.NI,Ioannis LAGOS,Lagos,-,GroupsEnum.NI
+494,B9-0233/2019 - Am 3,197704,GroupsEnum.NI,Brian MONTEITH,Monteith,-,GroupsEnum.NI
+495,B9-0233/2019 - Am 3,197603,GroupsEnum.NI,June Alison MUMMERY,Mummery,-,GroupsEnum.NI
+496,B9-0233/2019 - Am 3,197712,GroupsEnum.NI,Henrik OVERGAARD NIELSEN,Overgaard Nielsen,-,GroupsEnum.NI
+497,B9-0233/2019 - Am 3,99461,GroupsEnum.NI,Alexandra Lesley PHILLIPS,Phillips Alexandra Lesley,-,GroupsEnum.NI
+498,B9-0233/2019 - Am 3,197813,GroupsEnum.NI,Jake PUGH,Pugh,-,GroupsEnum.NI
+499,B9-0233/2019 - Am 3,197733,GroupsEnum.NI,Robert ROWLAND,Rowland,-,GroupsEnum.NI
+500,B9-0233/2019 - Am 3,197814,GroupsEnum.NI,Louis STEDMAN-BRYCE,Stedman-Bryce,-,GroupsEnum.NI
+501,B9-0233/2019 - Am 3,197705,GroupsEnum.NI,John David Edward TENNANT,Tennant,-,GroupsEnum.NI
+502,B9-0233/2019 - Am 3,197599,GroupsEnum.NI,Richard TICE,Tice,-,GroupsEnum.NI
+503,B9-0233/2019 - Am 3,197757,GroupsEnum.NI,James WELLS,Wells,-,GroupsEnum.NI
+504,B9-0233/2019 - Am 3,197744,GroupsEnum.NI,Ann WIDDECOMBE,Widdecombe,-,GroupsEnum.NI
+505,B9-0233/2019 - Am 3,197746,GroupsEnum.PPE,Álvaro AMARO,Amaro,-,GroupsEnum.PPE
+506,B9-0233/2019 - Am 3,96808,GroupsEnum.PPE,Pablo ARIAS ECHEVERRÍA,Arias Echeverría,-,GroupsEnum.PPE
+507,B9-0233/2019 - Am 3,197492,GroupsEnum.PPE,Bartosz ARŁUKOWICZ,Arłukowicz,-,GroupsEnum.PPE
+508,B9-0233/2019 - Am 3,197671,GroupsEnum.PPE,Traian BĂSESCU,Băsescu,-,GroupsEnum.PPE
+509,B9-0233/2019 - Am 3,197679,GroupsEnum.PPE,Isabel BENJUMEA BENJUMEA,Benjumea Benjumea,-,GroupsEnum.PPE
+510,B9-0233/2019 - Am 3,197778,GroupsEnum.PPE,Tom BERENDSEN,Berendsen,-,GroupsEnum.PPE
+511,B9-0233/2019 - Am 3,197410,GroupsEnum.PPE,Stefan BERGER,Berger,-,GroupsEnum.PPE
+512,B9-0233/2019 - Am 3,197648,GroupsEnum.PPE,Alexander BERNHUBER,Bernhuber,-,GroupsEnum.PPE
+513,B9-0233/2019 - Am 3,197771,GroupsEnum.PPE,Vladimír BILČÍK,Bilčík,-,GroupsEnum.PPE
+514,B9-0233/2019 - Am 3,197637,GroupsEnum.PPE,Vasile BLAGA,Blaga,-,GroupsEnum.PPE
+515,B9-0233/2019 - Am 3,124712,GroupsEnum.PPE,Andrea BOCSKOR,Bocskor,-,GroupsEnum.PPE
+516,B9-0233/2019 - Am 3,197636,GroupsEnum.PPE,Ioan-Rareş BOGDAN,Bogdan,-,GroupsEnum.PPE
+517,B9-0233/2019 - Am 3,125012,GroupsEnum.PPE,Daniel BUDA,Buda,-,GroupsEnum.PPE
+518,B9-0233/2019 - Am 3,38420,GroupsEnum.PPE,Cristian-Silviu BUŞOI,Buşoi,-,GroupsEnum.PPE
+519,B9-0233/2019 - Am 3,28269,GroupsEnum.PPE,Jerzy BUZEK,Buzek,-,GroupsEnum.PPE
+520,B9-0233/2019 - Am 3,96867,GroupsEnum.PPE,Maria da Graça CARVALHO,Carvalho,-,GroupsEnum.PPE
+521,B9-0233/2019 - Am 3,28122,GroupsEnum.PPE,David CASA,Casa,-,GroupsEnum.PPE
+522,B9-0233/2019 - Am 3,28219,GroupsEnum.PPE,Daniel CASPARY,Caspary,-,GroupsEnum.PPE
+523,B9-0233/2019 - Am 3,28390,GroupsEnum.PPE,Pilar del CASTILLO VERA,del Castillo Vera,-,GroupsEnum.PPE
+524,B9-0233/2019 - Am 3,197536,GroupsEnum.PPE,Nathalie COLIN-OESTERLÉ,Colin-Oesterlé,-,GroupsEnum.PPE
+525,B9-0233/2019 - Am 3,96747,GroupsEnum.PPE,Arnaud DANJEAN,Danjean,-,GroupsEnum.PPE
+526,B9-0233/2019 - Am 3,124714,GroupsEnum.PPE,Andor DELI,Deli,-,GroupsEnum.PPE
+527,B9-0233/2019 - Am 3,96826,GroupsEnum.PPE,Tamás DEUTSCH,Deutsch,-,GroupsEnum.PPE
+528,B9-0233/2019 - Am 3,190774,GroupsEnum.PPE,Geoffroy DIDIER,Didier,-,GroupsEnum.PPE
+529,B9-0233/2019 - Am 3,197473,GroupsEnum.PPE,Christian DOLESCHAL,Doleschal,-,GroupsEnum.PPE
+530,B9-0233/2019 - Am 3,96787,GroupsEnum.PPE,Herbert DORFMANN,Dorfmann,-,GroupsEnum.PPE
+531,B9-0233/2019 - Am 3,197510,GroupsEnum.PPE,Jarosław DUDA,Duda,-,GroupsEnum.PPE
+532,B9-0233/2019 - Am 3,197643,GroupsEnum.PPE,Karoline EDTSTADLER,Edtstadler,-,GroupsEnum.PPE
+533,B9-0233/2019 - Am 3,96811,GroupsEnum.PPE,Rosa ESTARÀS FERRAGUT,Estaràs Ferragut,-,GroupsEnum.PPE
+534,B9-0233/2019 - Am 3,197649,GroupsEnum.PPE,Gheorghe FALCĂ,Falcă,-,GroupsEnum.PPE
+535,B9-0233/2019 - Am 3,1917,GroupsEnum.PPE,Markus FERBER,Ferber,-,GroupsEnum.PPE
+536,B9-0233/2019 - Am 3,96899,GroupsEnum.PPE,José Manuel FERNANDES,Fernandes,-,GroupsEnum.PPE
+537,B9-0233/2019 - Am 3,197720,GroupsEnum.PPE,Frances FITZGERALD,Fitzgerald,-,GroupsEnum.PPE
+538,B9-0233/2019 - Am 3,197513,GroupsEnum.PPE,Tomasz FRANKOWSKI,Frankowski,-,GroupsEnum.PPE
+539,B9-0233/2019 - Am 3,2341,GroupsEnum.PPE,Michael GAHLER,Gahler,-,GroupsEnum.PPE
+540,B9-0233/2019 - Am 3,28150,GroupsEnum.PPE,Kinga GÁL,Gál,-,GroupsEnum.PPE
+541,B9-0233/2019 - Am 3,1992,GroupsEnum.PPE,José Manuel GARCÍA-MARGALLO Y MARFIL,García-Margallo y Marfil,-,GroupsEnum.PPE
+542,B9-0233/2019 - Am 3,124807,GroupsEnum.PPE,Jens GIESEKE,Gieseke,-,GroupsEnum.PPE
+543,B9-0233/2019 - Am 3,202036,GroupsEnum.PPE,Sunčana GLAVAK,Glavak,-,GroupsEnum.PPE
+544,B9-0233/2019 - Am 3,125027,GroupsEnum.PPE,Esteban GONZÁLEZ PONS,González Pons,-,GroupsEnum.PPE
+545,B9-0233/2019 - Am 3,96830,GroupsEnum.PPE,Enikő GYŐRI,Győri,-,GroupsEnum.PPE
+546,B9-0233/2019 - Am 3,197514,GroupsEnum.PPE,Andrzej HALICKI,Halicki,-,GroupsEnum.PPE
+547,B9-0233/2019 - Am 3,197646,GroupsEnum.PPE,Mircea-Gheorghe HAVA,Hava,-,GroupsEnum.PPE
+548,B9-0233/2019 - Am 3,124895,GroupsEnum.PPE,Krzysztof HETMAN,Hetman,-,GroupsEnum.PPE
+549,B9-0233/2019 - Am 3,124586,GroupsEnum.PPE,Balázs HIDVÉGHI,Hidvéghi,-,GroupsEnum.PPE
+550,B9-0233/2019 - Am 3,96780,GroupsEnum.PPE,Monika HOHLMEIER,Hohlmeier,-,GroupsEnum.PPE
+551,B9-0233/2019 - Am 3,124715,GroupsEnum.PPE,György HÖLVÉNYI,Hölvényi,-,GroupsEnum.PPE
+552,B9-0233/2019 - Am 3,5565,GroupsEnum.PPE,Brice HORTEFEUX,Hortefeux,-,GroupsEnum.PPE
+553,B9-0233/2019 - Am 3,96772,GroupsEnum.PPE,Peter JAHR,Jahr,-,GroupsEnum.PPE
+554,B9-0233/2019 - Am 3,197517,GroupsEnum.PPE,Adam JARUBAS,Jarubas,-,GroupsEnum.PPE
+555,B9-0233/2019 - Am 3,96771,GroupsEnum.PPE,Jarosław KALINOWSKI,Kalinowski,-,GroupsEnum.PPE
+556,B9-0233/2019 - Am 3,96934,GroupsEnum.PPE,Sandra KALNIETE,Kalniete,-,GroupsEnum.PPE
+557,B9-0233/2019 - Am 3,4246,GroupsEnum.PPE,Othmar KARAS,Karas,-,GroupsEnum.PPE
+558,B9-0233/2019 - Am 3,96668,GroupsEnum.PPE,Seán KELLY,Kelly,-,GroupsEnum.PPE
+559,B9-0233/2019 - Am 3,197406,GroupsEnum.PPE,Arba KOKALARI,Kokalari,-,GroupsEnum.PPE
+560,B9-0233/2019 - Am 3,197525,GroupsEnum.PPE,Ewa KOPACZ,Kopacz,-,GroupsEnum.PPE
+561,B9-0233/2019 - Am 3,96829,GroupsEnum.PPE,Ádám KÓSA,Kósa,-,GroupsEnum.PPE
+562,B9-0233/2019 - Am 3,197843,GroupsEnum.PPE,Andrius KUBILIUS,Kubilius,-,GroupsEnum.PPE
+563,B9-0233/2019 - Am 3,38398,GroupsEnum.PPE,Esther de LANGE,de Lange,-,GroupsEnum.PPE
+564,B9-0233/2019 - Am 3,197393,GroupsEnum.PPE,David LEGA,Lega,-,GroupsEnum.PPE
+565,B9-0233/2019 - Am 3,95074,GroupsEnum.PPE,Jeroen LENAERS,Lenaers,-,GroupsEnum.PPE
+566,B9-0233/2019 - Am 3,23781,GroupsEnum.PPE,Janusz LEWANDOWSKI,Lewandowski,-,GroupsEnum.PPE
+567,B9-0233/2019 - Am 3,1927,GroupsEnum.PPE,Peter LIESE,Liese,-,GroupsEnum.PPE
+568,B9-0233/2019 - Am 3,124808,GroupsEnum.PPE,Norbert LINS,Lins,-,GroupsEnum.PPE
+569,B9-0233/2019 - Am 3,197777,GroupsEnum.PPE,Leopoldo LÓPEZ GIL,López Gil,-,GroupsEnum.PPE
+570,B9-0233/2019 - Am 3,28399,GroupsEnum.PPE,Antonio LÓPEZ-ISTÚRIZ WHITE,López-Istúriz White,-,GroupsEnum.PPE
+571,B9-0233/2019 - Am 3,124806,GroupsEnum.PPE,David McALLISTER,McAllister,-,GroupsEnum.PPE
+572,B9-0233/2019 - Am 3,28115,GroupsEnum.PPE,Mairead McGUINNESS,McGuinness,-,GroupsEnum.PPE
+573,B9-0233/2019 - Am 3,197835,GroupsEnum.PPE,Aušra MALDEIKIENĖ,Maldeikienė,-,GroupsEnum.PPE
+574,B9-0233/2019 - Am 3,190713,GroupsEnum.PPE,Lukas MANDL,Mandl,-,GroupsEnum.PPE
+575,B9-0233/2019 - Am 3,33982,GroupsEnum.PPE,Marian-Jean MARINESCU,Marinescu,-,GroupsEnum.PPE
+576,B9-0233/2019 - Am 3,124828,GroupsEnum.PPE,Fulvio MARTUSCIELLO,Martusciello,-,GroupsEnum.PPE
+577,B9-0233/2019 - Am 3,197841,GroupsEnum.PPE,Liudas MAŽYLIS,Mažylis,-,GroupsEnum.PPE
+578,B9-0233/2019 - Am 3,197662,GroupsEnum.PPE,Vangelis MEIMARAKIS,Meimarakis,-,GroupsEnum.PPE
+579,B9-0233/2019 - Am 3,118859,GroupsEnum.PPE,Roberta METSOLA,Metsola,-,GroupsEnum.PPE
+580,B9-0233/2019 - Am 3,197824,GroupsEnum.PPE,Giuseppe MILAZZO,Milazzo,-,GroupsEnum.PPE
+581,B9-0233/2019 - Am 3,197711,GroupsEnum.PPE,Dolors MONTSERRAT,Montserrat,-,GroupsEnum.PPE
+582,B9-0233/2019 - Am 3,72779,GroupsEnum.PPE,Nadine MORANO,Morano,-,GroupsEnum.PPE
+583,B9-0233/2019 - Am 3,197427,GroupsEnum.PPE,Marlene MORTLER,Mortler,-,GroupsEnum.PPE
+584,B9-0233/2019 - Am 3,197647,GroupsEnum.PPE,Dan-Ştefan MOTREANU,Motreanu,-,GroupsEnum.PPE
+585,B9-0233/2019 - Am 3,124802,GroupsEnum.PPE,Siegfried MUREŞAN,Mureşan,-,GroupsEnum.PPE
+586,B9-0233/2019 - Am 3,4289,GroupsEnum.PPE,Angelika NIEBLER,Niebler,-,GroupsEnum.PPE
+587,B9-0233/2019 - Am 3,124701,GroupsEnum.PPE,Luděk NIEDERMAYER,Niedermayer,-,GroupsEnum.PPE
+588,B9-0233/2019 - Am 3,202112,GroupsEnum.PPE,Gheorghe-Vlad NISTOR,Nistor,-,GroupsEnum.PPE
+589,B9-0233/2019 - Am 3,28294,GroupsEnum.PPE,Ljudmila NOVAK,Novak,-,GroupsEnum.PPE
+590,B9-0233/2019 - Am 3,28288,GroupsEnum.PPE,Jan OLBRYCHT,Olbrycht,-,GroupsEnum.PPE
+591,B9-0233/2019 - Am 3,197420,GroupsEnum.PPE,Kris PEETERS,Peeters,-,GroupsEnum.PPE
+592,B9-0233/2019 - Am 3,197738,GroupsEnum.PPE,Lídia PEREIRA,Pereira Lídia,-,GroupsEnum.PPE
+593,B9-0233/2019 - Am 3,28224,GroupsEnum.PPE,Markus PIEPER,Pieper,-,GroupsEnum.PPE
+594,B9-0233/2019 - Am 3,197404,GroupsEnum.PPE,Jessica POLFJÄRD,Polfjärd,-,GroupsEnum.PPE
+595,B9-0233/2019 - Am 3,197765,GroupsEnum.PPE,Peter POLLÁK,Pollák,-,GroupsEnum.PPE
+596,B9-0233/2019 - Am 3,125706,GroupsEnum.PPE,Jiří POSPÍŠIL,Pospíšil,-,GroupsEnum.PPE
+597,B9-0233/2019 - Am 3,188945,GroupsEnum.PPE,Dennis RADTKE,Radtke,-,GroupsEnum.PPE
+598,B9-0233/2019 - Am 3,96903,GroupsEnum.PPE,Paulo RANGEL,Rangel,-,GroupsEnum.PPE
+599,B9-0233/2019 - Am 3,197413,GroupsEnum.PPE,Karlo RESSLER,Ressler,-,GroupsEnum.PPE
+600,B9-0233/2019 - Am 3,125670,GroupsEnum.PPE,Massimiliano SALINI,Salini,-,GroupsEnum.PPE
+601,B9-0233/2019 - Am 3,24594,GroupsEnum.PPE,Anne SANDER,Sander,-,GroupsEnum.PPE
+602,B9-0233/2019 - Am 3,112611,GroupsEnum.PPE,Petri SARVAMAA,Sarvamaa,-,GroupsEnum.PPE
+603,B9-0233/2019 - Am 3,197656,GroupsEnum.PPE,Simone SCHMIEDTBAUER,Schmiedtbauer,-,GroupsEnum.PPE
+604,B9-0233/2019 - Am 3,197422,GroupsEnum.PPE,Christine SCHNEIDER,Schneider,-,GroupsEnum.PPE
+605,B9-0233/2019 - Am 3,125030,GroupsEnum.PPE,Annie SCHREIJER-PIERIK,Schreijer-Pierik,-,GroupsEnum.PPE
+606,B9-0233/2019 - Am 3,124809,GroupsEnum.PPE,Sven SCHULZE,Schulze,-,GroupsEnum.PPE
+607,B9-0233/2019 - Am 3,28223,GroupsEnum.PPE,Andreas SCHWAB,Schwab,-,GroupsEnum.PPE
+608,B9-0233/2019 - Am 3,197425,GroupsEnum.PPE,Ralf SEEKATZ,Seekatz,-,GroupsEnum.PPE
+609,B9-0233/2019 - Am 3,197548,GroupsEnum.PPE,Radosław SIKORSKI,Sikorski,-,GroupsEnum.PPE
+610,B9-0233/2019 - Am 3,197426,GroupsEnum.PPE,Sven SIMON,Simon,-,GroupsEnum.PPE
+611,B9-0233/2019 - Am 3,197390,GroupsEnum.PPE,Sara SKYTTEDAL,Skyttedal,-,GroupsEnum.PPE
+612,B9-0233/2019 - Am 3,124710,GroupsEnum.PPE,Michaela ŠOJDROVÁ,Šojdrová,-,GroupsEnum.PPE
+613,B9-0233/2019 - Am 3,197417,GroupsEnum.PPE,Tomislav SOKOL,Sokol,-,GroupsEnum.PPE
+614,B9-0233/2019 - Am 3,124929,GroupsEnum.PPE,Ivan ŠTEFANEC,Štefanec,-,GroupsEnum.PPE
+615,B9-0233/2019 - Am 3,2187,GroupsEnum.PPE,Antonio TAJANI,Tajani,-,GroupsEnum.PPE
+616,B9-0233/2019 - Am 3,197667,GroupsEnum.PPE,Barbara THALER,Thaler,-,GroupsEnum.PPE
+617,B9-0233/2019 - Am 3,197402,GroupsEnum.PPE,Tomas TOBÉ,Tobé,-,GroupsEnum.PPE
+618,B9-0233/2019 - Am 3,125104,GroupsEnum.PPE,Romana TOMC,Tomc,-,GroupsEnum.PPE
+619,B9-0233/2019 - Am 3,27714,GroupsEnum.PPE,Edina TÓTH,Tóth,-,GroupsEnum.PPE
+620,B9-0233/2019 - Am 3,28617,GroupsEnum.PPE,Inese VAIDERE,Vaidere,-,GroupsEnum.PPE
+621,B9-0233/2019 - Am 3,96756,GroupsEnum.PPE,Sabine VERHEYEN,Verheyen,-,GroupsEnum.PPE
+622,B9-0233/2019 - Am 3,98582,GroupsEnum.PPE,Loránt VINCZE,Vincze,-,GroupsEnum.PPE
+623,B9-0233/2019 - Am 3,124726,GroupsEnum.PPE,Henna VIRKKUNEN,Virkkunen,-,GroupsEnum.PPE
+624,B9-0233/2019 - Am 3,96761,GroupsEnum.PPE,Axel VOSS,Voss,-,GroupsEnum.PPE
+625,B9-0233/2019 - Am 3,197863,GroupsEnum.PPE,Maria WALSH,Walsh,-,GroupsEnum.PPE
+626,B9-0233/2019 - Am 3,197429,GroupsEnum.PPE,Marion WALSMANN,Walsmann,-,GroupsEnum.PPE
+627,B9-0233/2019 - Am 3,197515,GroupsEnum.PPE,Pernille WEISS,Weiss,-,GroupsEnum.PPE
+628,B9-0233/2019 - Am 3,2323,GroupsEnum.PPE,Rainer WIELAND,Wieland,-,GroupsEnum.PPE
+629,B9-0233/2019 - Am 3,39725,GroupsEnum.PPE,Iuliu WINKLER,Winkler,-,GroupsEnum.PPE
+630,B9-0233/2019 - Am 3,197652,GroupsEnum.PPE,Angelika WINZIG,Winzig,-,GroupsEnum.PPE
+631,B9-0233/2019 - Am 3,197421,GroupsEnum.PPE,Isabel WISELER-LIMA,Wiseler-Lima,-,GroupsEnum.PPE
+632,B9-0233/2019 - Am 3,124713,GroupsEnum.PPE,Tomáš ZDECHOVSKÝ,Zdechovský,-,GroupsEnum.PPE
+633,B9-0233/2019 - Am 3,185341,GroupsEnum.PPE,Željana ZOVKO,Zovko,-,GroupsEnum.PPE
+634,B9-0233/2019 - Am 3,96933,GroupsEnum.PPE,Milan ZVER,Zver,-,GroupsEnum.PPE
+635,B9-0233/2019 - Am 3,197437,GroupsEnum.Renew,Nicola BEER,Beer,-,GroupsEnum.Renew
+636,B9-0233/2019 - Am 3,112014,GroupsEnum.Renew,Phil BENNION,Bennion,-,GroupsEnum.Renew
+637,B9-0233/2019 - Am 3,96922,GroupsEnum.Renew,Izaskun BILBAO BARANDICA,Bilbao Barandica,-,GroupsEnum.Renew
+638,B9-0233/2019 - Am 3,197558,GroupsEnum.Renew,Asger CHRISTENSEN,Christensen,-,GroupsEnum.Renew
+639,B9-0233/2019 - Am 3,124709,GroupsEnum.Renew,Martina DLABAJOVÁ,Dlabajová,-,GroupsEnum.Renew
+640,B9-0233/2019 - Am 3,197555,GroupsEnum.Renew,Søren GADE,Gade,-,GroupsEnum.Renew
+641,B9-0233/2019 - Am 3,197443,GroupsEnum.Renew,Andreas GLÜCK,Glück,-,GroupsEnum.Renew
+642,B9-0233/2019 - Am 3,197444,GroupsEnum.Renew,Svenja HAHN,Hahn Svenja,-,GroupsEnum.Renew
+643,B9-0233/2019 - Am 3,197526,GroupsEnum.Renew,Martin HLAVÁČEK,Hlaváček,-,GroupsEnum.Renew
+644,B9-0233/2019 - Am 3,197818,GroupsEnum.Renew,Billy KELLEHER,Kelleher,-,GroupsEnum.Renew
+645,B9-0233/2019 - Am 3,197528,GroupsEnum.Renew,Ondřej KNOTEK,Knotek,-,GroupsEnum.Renew
+646,B9-0233/2019 - Am 3,197445,GroupsEnum.Renew,Moritz KÖRNER,Körner,-,GroupsEnum.Renew
+647,B9-0233/2019 - Am 3,118949,GroupsEnum.Renew,Ondřej KOVAŘÍK,Kovařík,-,GroupsEnum.Renew
+648,B9-0233/2019 - Am 3,96709,GroupsEnum.Renew,Morten LØKKEGAARD,Løkkegaard,-,GroupsEnum.Renew
+649,B9-0233/2019 - Am 3,197522,GroupsEnum.Renew,Radka MAXOVÁ,Maxová,-,GroupsEnum.Renew
+650,B9-0233/2019 - Am 3,124862,GroupsEnum.Renew,Ulrike MÜLLER,Müller,-,GroupsEnum.Renew
+651,B9-0233/2019 - Am 3,197432,GroupsEnum.Renew,Jan-Christoph OETJEN,Oetjen,-,GroupsEnum.Renew
+652,B9-0233/2019 - Am 3,197563,GroupsEnum.Renew,Mauri PEKKARINEN,Pekkarinen,-,GroupsEnum.Renew
+653,B9-0233/2019 - Am 3,125045,GroupsEnum.SD,Clara AGUILERA,Aguilera,-,GroupsEnum.SD
+654,B9-0233/2019 - Am 3,96891,GroupsEnum.SD,Paolo DE CASTRO,De Castro,-,GroupsEnum.SD
+655,B9-0233/2019 - Am 3,124996,GroupsEnum.ECR,Peter LUNDGREN,Lundgren,0,GroupsEnum.ECR
+656,B9-0233/2019 - Am 3,130256,GroupsEnum.ECR,Dace MELBĀRDE,Melbārde,0,GroupsEnum.ECR
+657,B9-0233/2019 - Am 3,197399,GroupsEnum.ECR,Jessica STEGRUD,Stegrud,0,GroupsEnum.ECR
+658,B9-0233/2019 - Am 3,28615,GroupsEnum.ECR,Roberts ZĪLE,Zīle,0,GroupsEnum.ECR
+659,B9-0233/2019 - Am 3,197582,GroupsEnum.ID,Gianna GANCIA,Gancia,0,GroupsEnum.ID
+660,B9-0233/2019 - Am 3,197596,GroupsEnum.ID,Teuvo HAKKARAINEN,Hakkarainen,0,GroupsEnum.ID
+661,B9-0233/2019 - Am 3,197594,GroupsEnum.ID,Laura HUHTASAARI,Huhtasaari,0,GroupsEnum.ID
+662,B9-0233/2019 - Am 3,197570,GroupsEnum.ID,Peter KOFOD,Kofod,0,GroupsEnum.ID
+663,B9-0233/2019 - Am 3,197493,GroupsEnum.ID,Jaak MADISON,Madison,0,GroupsEnum.ID
+664,B9-0233/2019 - Am 3,197751,GroupsEnum.NI,James Alexander GLANCY,Glancy,0,GroupsEnum.NI
+665,B9-0233/2019 - Am 3,197807,GroupsEnum.NI,John LONGWORTH,Longworth,0,GroupsEnum.NI
+666,B9-0233/2019 - Am 3,197620,GroupsEnum.NI,Matthew PATTEN,Patten,0,GroupsEnum.NI
+667,B9-0233/2019 - Am 3,197935,GroupsEnum.NI,Ivan Vilibor SINČIĆ,Sinčić,0,GroupsEnum.NI
+668,B9-0233/2019 - Am 3,197534,GroupsEnum.PPE,François-Xavier BELLAMY,Bellamy,0,GroupsEnum.PPE
+669,B9-0233/2019 - Am 3,125004,GroupsEnum.PPE,Franc BOGOVIČ,Bogovič,0,GroupsEnum.PPE
+670,B9-0233/2019 - Am 3,96809,GroupsEnum.PPE,Peter van DALEN,van Dalen,0,GroupsEnum.PPE
+671,B9-0233/2019 - Am 3,197455,GroupsEnum.PPE,Cindy FRANSSEN,Franssen,0,GroupsEnum.PPE
+672,B9-0233/2019 - Am 3,96779,GroupsEnum.PPE,Danuta Maria HÜBNER,Hübner,0,GroupsEnum.PPE
+673,B9-0233/2019 - Am 3,4560,GroupsEnum.PPE,Antonius MANDERS,Manders,0,GroupsEnum.PPE
+674,B9-0233/2019 - Am 3,197769,GroupsEnum.PPE,Michal WIEZIK,Wiezik,0,GroupsEnum.PPE
+675,B9-0233/2019 - Am 3,197848,GroupsEnum.Renew,Atidzhe ALIEVA-VELI,Alieva-Veli,0,GroupsEnum.Renew
+676,B9-0233/2019 - Am 3,197781,GroupsEnum.Renew,Malik AZMANI,Azmani,0,GroupsEnum.Renew
+677,B9-0233/2019 - Am 3,197463,GroupsEnum.Renew,Olivier CHASTEL,Chastel,0,GroupsEnum.Renew
+678,B9-0233/2019 - Am 3,58789,GroupsEnum.Renew,Jan HUITEMA,Huitema,0,GroupsEnum.Renew
+679,B9-0233/2019 - Am 3,191693,GroupsEnum.Renew,Elsi KATAINEN,Katainen,0,GroupsEnum.Renew
+680,B9-0233/2019 - Am 3,124866,GroupsEnum.Renew,Ilhan KYUCHYUK,Kyuchyuk,0,GroupsEnum.Renew
+681,B9-0233/2019 - Am 3,125128,GroupsEnum.Renew,Iskra MIHAYLOVA,Mihaylova,0,GroupsEnum.Renew
+682,B9-0233/2019 - Am 3,190519,GroupsEnum.Renew,Caroline NAGTEGAAL,Nagtegaal,0,GroupsEnum.Renew
+683,B9-0233/2019 - Am 3,130100,GroupsEnum.Renew,Hilde VAUTMANS,Vautmans,0,GroupsEnum.Renew
+684,B9-0233/2019 - Am 3,197651,GroupsEnum.SD,Carmen AVRAM,Avram,0,GroupsEnum.SD

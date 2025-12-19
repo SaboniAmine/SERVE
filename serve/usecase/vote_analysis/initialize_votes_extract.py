@@ -42,7 +42,8 @@ class InitializeVotesExtractUsecase(ExtractVotesFromMinutesUsecase):
                     row = pd.DataFrame([amendment_id, mep_id, group_mep, mep_match, name, value, group]).T
                     matches_df = pd.concat([matches_df, row], ignore_index=True, axis = 0)
 
-                matches_df.to_csv('tests/data/matches/' + minutes.date.replace("/", "_") + '.csv', encoding='utf-8')
+                matches_df.to_csv('tests/data/matches/' + minutes.date.replace("/", "_") + '.csv', encoding='utf-8', mode='a')
+                logger.info(f'Done saving votes matching for the {minutes.date}')
                 self.amendments_repository.save_amendments(minutes, amendment_ids)
                 self.votes_repository.save_votes(normalized_votes)
             except Exception as e:
